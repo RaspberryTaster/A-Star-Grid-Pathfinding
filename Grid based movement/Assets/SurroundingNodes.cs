@@ -12,6 +12,7 @@ public class SurroundingNodes : MonoBehaviour
 	public int moves = 10;
 	public int xAxis;
 	public int yAxis;
+	public int zAxis;
 	public Transform theTarget;
 	public Transform unit;
 	[Button("Aura")]
@@ -35,7 +36,7 @@ public class SurroundingNodes : MonoBehaviour
 	{
 		surroundingNodes.Clear();
 
-		List<Node> neightbours = grid.GetNeighbours(center, xAxis, yAxis);
+		List<Node> neightbours = grid.GetNeighbours(center, xAxis, yAxis, zAxis);
 		List<Node> outerNeighbours = new List<Node>();
 		for (int i = 0; i < neightbours.Count; i++)
 		{
@@ -60,7 +61,7 @@ public class SurroundingNodes : MonoBehaviour
 	public void SetRange()
 	{
 		Node center = grid.NodeFromWorldPoint(theTarget.position);
-		List<Node> neighbours = grid.GetNeighbours(center, xAxis, yAxis);
+		List<Node> neighbours = grid.GetNeighbours(center, xAxis, yAxis, zAxis);
 	}
 	public Node closestNode;
 	public Node ClosestNode(Node seeker)

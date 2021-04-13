@@ -437,1125 +437,3205 @@ MonoBehaviour:
   MovementNodes:
   - selected: 0
     walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: 0.5}
-    gridPositionX: 16
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: -0.5}
-    gridPositionX: 15
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: 0.5}
-    gridPositionX: 15
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: 1.5}
-    gridPositionX: 15
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: -0.5}
-    gridPositionX: 16
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: 1.5}
-    gridPositionX: 16
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: -0.5}
-    gridPositionX: 17
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: 0.5}
-    gridPositionX: 17
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: 1.5}
-    gridPositionX: 17
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: -1.5}
-    gridPositionX: 14
-    gridPositionY: 8
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: -0.5}
-    gridPositionX: 14
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: 0.5}
-    gridPositionX: 14
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: -1.5}
-    gridPositionX: 15
-    gridPositionY: 8
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: -1.5}
-    gridPositionX: 16
-    gridPositionY: 8
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: 1.5}
-    gridPositionX: 14
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: 2.5}
-    gridPositionX: 14
-    gridPositionY: 12
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: 2.5}
-    gridPositionX: 15
-    gridPositionY: 12
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: 2.5}
-    gridPositionX: 16
-    gridPositionY: 12
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: -1.5}
-    gridPositionX: 17
-    gridPositionY: 8
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: 2.5}
-    gridPositionX: 17
-    gridPositionY: 12
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 8.5, y: 0.001, z: -1.5}
-    gridPositionX: 18
-    gridPositionY: 8
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 8.5, y: 0.001, z: -0.5}
-    gridPositionX: 18
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 8.5, y: 0.001, z: 0.5}
-    gridPositionX: 18
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 8.5, y: 0.001, z: 1.5}
-    gridPositionX: 18
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 8.5, y: 0.001, z: 2.5}
-    gridPositionX: 18
-    gridPositionY: 12
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 3.5, y: 0.001, z: -0.5}
-    gridPositionX: 13
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: -2.5}
-    gridPositionX: 15
-    gridPositionY: 7
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 3.5, y: 0.001, z: 0.5}
-    gridPositionX: 13
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 3.5, y: 0.001, z: 1.5}
-    gridPositionX: 13
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: -2.5}
-    gridPositionX: 16
-    gridPositionY: 7
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: -2.5}
-    gridPositionX: 17
-    gridPositionY: 7
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: 3.5}
-    gridPositionX: 15
-    gridPositionY: 13
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: 3.5}
-    gridPositionX: 16
-    gridPositionY: 13
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: 3.5}
-    gridPositionX: 17
-    gridPositionY: 13
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 9.5, y: 0.001, z: -0.5}
-    gridPositionX: 19
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 9.5, y: 0.001, z: 0.5}
-    gridPositionX: 19
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 9.5, y: 0.001, z: 1.5}
-    gridPositionX: 19
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 2.5, y: 0.001, z: 0.5}
-    gridPositionX: 12
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: -3.5}
-    gridPositionX: 16
-    gridPositionY: 6
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: 4.5}
-    gridPositionX: 16
-    gridPositionY: 14
-    gCost: 0
-    hCost: 0
-  WithinRangeNodes:
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: 0.5}
-    gridPositionX: 15
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: -0.5}
-    gridPositionX: 16
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: 1.5}
-    gridPositionX: 16
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: 0.5}
-    gridPositionX: 17
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: 0.5}
-    gridPositionX: 14
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: -0.5}
-    gridPositionX: 15
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: 1.5}
-    gridPositionX: 15
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: -1.5}
-    gridPositionX: 16
-    gridPositionY: 8
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: -0.5}
-    gridPositionX: 17
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: 2.5}
-    gridPositionX: 16
-    gridPositionY: 12
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: 1.5}
-    gridPositionX: 17
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 8.5, y: 0.001, z: 0.5}
-    gridPositionX: 18
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 3.5, y: 0.001, z: 0.5}
-    gridPositionX: 13
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: -0.5}
-    gridPositionX: 14
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: 1.5}
-    gridPositionX: 14
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: -1.5}
-    gridPositionX: 15
-    gridPositionY: 8
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: 2.5}
-    gridPositionX: 15
-    gridPositionY: 12
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: -2.5}
-    gridPositionX: 16
-    gridPositionY: 7
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: -1.5}
-    gridPositionX: 17
-    gridPositionY: 8
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 8.5, y: 0.001, z: -0.5}
-    gridPositionX: 18
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: 3.5}
-    gridPositionX: 16
-    gridPositionY: 13
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: 2.5}
-    gridPositionX: 17
-    gridPositionY: 12
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 8.5, y: 0.001, z: 1.5}
-    gridPositionX: 18
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 9.5, y: 0.001, z: 0.5}
-    gridPositionX: 19
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 2.5, y: 0.001, z: 0.5}
-    gridPositionX: 12
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 3.5, y: 0.001, z: -0.5}
-    gridPositionX: 13
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 3.5, y: 0.001, z: 1.5}
-    gridPositionX: 13
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: -1.5}
-    gridPositionX: 14
-    gridPositionY: 8
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: 2.5}
-    gridPositionX: 14
-    gridPositionY: 12
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: -2.5}
-    gridPositionX: 15
-    gridPositionY: 7
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: 3.5}
-    gridPositionX: 15
-    gridPositionY: 13
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: -3.5}
-    gridPositionX: 16
-    gridPositionY: 6
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: -2.5}
-    gridPositionX: 17
-    gridPositionY: 7
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 8.5, y: 0.001, z: -1.5}
-    gridPositionX: 18
-    gridPositionY: 8
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 9.5, y: 0.001, z: -0.5}
-    gridPositionX: 19
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: 4.5}
-    gridPositionX: 16
-    gridPositionY: 14
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: 3.5}
-    gridPositionX: 17
-    gridPositionY: 13
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 8.5, y: 0.001, z: 2.5}
-    gridPositionX: 18
-    gridPositionY: 12
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 9.5, y: 0.001, z: 1.5}
-    gridPositionX: 19
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: 0.5}
-    gridPositionX: 16
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 2.5, y: 0.001, z: -0.5}
-    gridPositionX: 12
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 3.5, y: 0.001, z: -1.5}
-    gridPositionX: 13
-    gridPositionY: 8
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: -2.5}
-    gridPositionX: 14
-    gridPositionY: 7
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: -3.5}
-    gridPositionX: 15
-    gridPositionY: 6
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 1.5, y: 0.001, z: -0.5}
-    gridPositionX: 11
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 2.5, y: 0.001, z: -1.5}
-    gridPositionX: 12
-    gridPositionY: 8
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 3.5, y: 0.001, z: -2.5}
-    gridPositionX: 13
-    gridPositionY: 7
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: -3.5}
-    gridPositionX: 14
-    gridPositionY: 6
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: -4.5}
-    gridPositionX: 15
-    gridPositionY: 5
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 1.5, y: 0.001, z: 0.5}
-    gridPositionX: 11
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 2.5, y: 0.001, z: 1.5}
-    gridPositionX: 12
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 3.5, y: 0.001, z: 2.5}
-    gridPositionX: 13
-    gridPositionY: 12
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: 3.5}
-    gridPositionX: 14
-    gridPositionY: 13
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: 4.5}
-    gridPositionX: 15
-    gridPositionY: 14
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 1.5, y: 0.001, z: 1.5}
-    gridPositionX: 11
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 2.5, y: 0.001, z: 2.5}
-    gridPositionX: 12
-    gridPositionY: 12
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 3.5, y: 0.001, z: 3.5}
-    gridPositionX: 13
-    gridPositionY: 13
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: 4.5}
-    gridPositionX: 14
-    gridPositionY: 14
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: 5.5}
-    gridPositionX: 15
-    gridPositionY: 15
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: -4.5}
-    gridPositionX: 16
-    gridPositionY: 5
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: -3.5}
-    gridPositionX: 17
-    gridPositionY: 6
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 8.5, y: 0.001, z: -2.5}
-    gridPositionX: 18
-    gridPositionY: 7
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 9.5, y: 0.001, z: -1.5}
-    gridPositionX: 19
-    gridPositionY: 8
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: 5.5}
-    gridPositionX: 16
-    gridPositionY: 15
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: 4.5}
-    gridPositionX: 17
-    gridPositionY: 14
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 8.5, y: 0.001, z: 3.5}
-    gridPositionX: 18
-    gridPositionY: 13
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 9.5, y: 0.001, z: 2.5}
-    gridPositionX: 19
-    gridPositionY: 12
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: -4.5}
-    gridPositionX: 17
-    gridPositionY: 5
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 8.5, y: 0.001, z: -3.5}
-    gridPositionX: 18
-    gridPositionY: 6
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 9.5, y: 0.001, z: -2.5}
-    gridPositionX: 19
-    gridPositionY: 7
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: 5.5}
-    gridPositionX: 17
-    gridPositionY: 15
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 8.5, y: 0.001, z: 4.5}
-    gridPositionX: 18
-    gridPositionY: 14
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 9.5, y: 0.001, z: 3.5}
-    gridPositionX: 19
-    gridPositionY: 13
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 1.5, y: 0.001, z: -1.5}
-    gridPositionX: 11
-    gridPositionY: 8
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 2.5, y: 0.001, z: -2.5}
-    gridPositionX: 12
-    gridPositionY: 7
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 3.5, y: 0.001, z: -3.5}
-    gridPositionX: 13
-    gridPositionY: 6
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: -4.5}
-    gridPositionX: 14
-    gridPositionY: 5
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 0.5, y: 0.001, z: -1.5}
-    gridPositionX: 10
-    gridPositionY: 8
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 1.5, y: 0.001, z: -2.5}
-    gridPositionX: 11
-    gridPositionY: 7
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 2.5, y: 0.001, z: -3.5}
-    gridPositionX: 12
-    gridPositionY: 6
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 3.5, y: 0.001, z: -4.5}
-    gridPositionX: 13
-    gridPositionY: 5
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: -5.5}
-    gridPositionX: 14
-    gridPositionY: 4
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 0.5, y: 0.001, z: -0.5}
-    gridPositionX: 10
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 0.5, y: 0.001, z: 0.5}
-    gridPositionX: 10
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: -5.5}
-    gridPositionX: 15
-    gridPositionY: 4
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: -5.5}
+    worldPosition: {x: 6.5, y: 4.621, z: 0.5}
     gridPositionX: 16
     gridPositionY: 4
+    gridPositionZ: 5
     gCost: 0
     hCost: 0
   - selected: 0
     walkable: 1
-    worldPosition: {x: 0.5, y: 0.001, z: 1.5}
-    gridPositionX: 10
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 1.5, y: 0.001, z: 2.5}
-    gridPositionX: 11
-    gridPositionY: 12
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 2.5, y: 0.001, z: 3.5}
-    gridPositionX: 12
-    gridPositionY: 13
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 3.5, y: 0.001, z: 4.5}
-    gridPositionX: 13
-    gridPositionY: 14
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: 5.5}
-    gridPositionX: 14
-    gridPositionY: 15
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 0.5, y: 0.001, z: 2.5}
-    gridPositionX: 10
-    gridPositionY: 12
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 1.5, y: 0.001, z: 3.5}
-    gridPositionX: 11
-    gridPositionY: 13
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 2.5, y: 0.001, z: 4.5}
-    gridPositionX: 12
-    gridPositionY: 14
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 3.5, y: 0.001, z: 5.5}
-    gridPositionX: 13
-    gridPositionY: 15
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: 6.5}
-    gridPositionX: 14
-    gridPositionY: 16
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: 6.5}
-    gridPositionX: 15
-    gridPositionY: 16
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: 6.5}
-    gridPositionX: 16
-    gridPositionY: 16
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: -5.5}
-    gridPositionX: 17
-    gridPositionY: 4
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 8.5, y: 0.001, z: -4.5}
-    gridPositionX: 18
-    gridPositionY: 5
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 9.5, y: 0.001, z: -3.5}
-    gridPositionX: 19
-    gridPositionY: 6
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: 6.5}
-    gridPositionX: 17
-    gridPositionY: 16
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 8.5, y: 0.001, z: 5.5}
-    gridPositionX: 18
-    gridPositionY: 15
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 9.5, y: 0.001, z: 4.5}
-    gridPositionX: 19
-    gridPositionY: 14
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 8.5, y: 0.001, z: -5.5}
-    gridPositionX: 18
-    gridPositionY: 4
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 9.5, y: 0.001, z: -4.5}
-    gridPositionX: 19
-    gridPositionY: 5
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 8.5, y: 0.001, z: 6.5}
-    gridPositionX: 18
-    gridPositionY: 16
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 9.5, y: 0.001, z: 5.5}
-    gridPositionX: 19
-    gridPositionY: 15
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: -0.5, y: 0.001, z: -0.5}
-    gridPositionX: 9
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: -6.5}
+    worldPosition: {x: 5.5, y: 3.6209998, z: -0.5}
     gridPositionX: 15
     gridPositionY: 3
+    gridPositionZ: 4
     gCost: 0
     hCost: 0
   - selected: 0
     walkable: 1
-    worldPosition: {x: -0.5, y: 0.001, z: 0.5}
-    gridPositionX: 9
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: -0.5, y: 0.001, z: 1.5}
-    gridPositionX: 9
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: -6.5}
-    gridPositionX: 16
-    gridPositionY: 3
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: -6.5}
-    gridPositionX: 17
-    gridPositionY: 3
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: 7.5}
+    worldPosition: {x: 5.5, y: 3.6209998, z: 0.5}
     gridPositionX: 15
-    gridPositionY: 17
+    gridPositionY: 3
+    gridPositionZ: 5
     gCost: 0
     hCost: 0
   - selected: 0
     walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: 7.5}
+    worldPosition: {x: 5.5, y: 3.6209998, z: 1.5}
+    gridPositionX: 15
+    gridPositionY: 3
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 3.6209998, z: -0.5}
     gridPositionX: 16
-    gridPositionY: 17
+    gridPositionY: 3
+    gridPositionZ: 4
     gCost: 0
     hCost: 0
   - selected: 0
     walkable: 1
-    worldPosition: {x: 7.5, y: 0.001, z: 7.5}
+    worldPosition: {x: 6.5, y: 3.6209998, z: 0.5}
+    gridPositionX: 16
+    gridPositionY: 3
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 3.6209998, z: 1.5}
+    gridPositionX: 16
+    gridPositionY: 3
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 3.6209998, z: -0.5}
     gridPositionX: 17
-    gridPositionY: 17
+    gridPositionY: 3
+    gridPositionZ: 4
     gCost: 0
     hCost: 0
   - selected: 0
     walkable: 1
-    worldPosition: {x: -1.5, y: 0.001, z: 0.5}
-    gridPositionX: 8
-    gridPositionY: 10
+    worldPosition: {x: 7.5, y: 3.6209998, z: 0.5}
+    gridPositionX: 17
+    gridPositionY: 3
+    gridPositionZ: 5
     gCost: 0
     hCost: 0
   - selected: 0
     walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: -7.5}
+    worldPosition: {x: 7.5, y: 3.6209998, z: 1.5}
+    gridPositionX: 17
+    gridPositionY: 3
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 4.621, z: -0.5}
+    gridPositionX: 15
+    gridPositionY: 4
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 4.621, z: 0.5}
+    gridPositionX: 15
+    gridPositionY: 4
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 4.621, z: 1.5}
+    gridPositionX: 15
+    gridPositionY: 4
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 4.621, z: -0.5}
+    gridPositionX: 16
+    gridPositionY: 4
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 4.621, z: 1.5}
+    gridPositionX: 16
+    gridPositionY: 4
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 4.621, z: -0.5}
+    gridPositionX: 17
+    gridPositionY: 4
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 4.621, z: 0.5}
+    gridPositionX: 17
+    gridPositionY: 4
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 4.621, z: 1.5}
+    gridPositionX: 17
+    gridPositionY: 4
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 5.621, z: -0.5}
+    gridPositionX: 15
+    gridPositionY: 5
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 5.621, z: 0.5}
+    gridPositionX: 15
+    gridPositionY: 5
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 5.621, z: 1.5}
+    gridPositionX: 15
+    gridPositionY: 5
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 5.621, z: -0.5}
+    gridPositionX: 16
+    gridPositionY: 5
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 5.621, z: 0.5}
+    gridPositionX: 16
+    gridPositionY: 5
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 5.621, z: 1.5}
+    gridPositionX: 16
+    gridPositionY: 5
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 5.621, z: -0.5}
+    gridPositionX: 17
+    gridPositionY: 5
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 5.621, z: 0.5}
+    gridPositionX: 17
+    gridPositionY: 5
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 5.621, z: 1.5}
+    gridPositionX: 17
+    gridPositionY: 5
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 2.6209998, z: -1.5}
+    gridPositionX: 14
+    gridPositionY: 2
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 2.6209998, z: -0.5}
+    gridPositionX: 14
+    gridPositionY: 2
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 2.6209998, z: 0.5}
+    gridPositionX: 14
+    gridPositionY: 2
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 2.6209998, z: -1.5}
+    gridPositionX: 15
+    gridPositionY: 2
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 2.6209998, z: -0.5}
+    gridPositionX: 15
+    gridPositionY: 2
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 2.6209998, z: 0.5}
+    gridPositionX: 15
+    gridPositionY: 2
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 2.6209998, z: -1.5}
     gridPositionX: 16
     gridPositionY: 2
+    gridPositionZ: 3
     gCost: 0
     hCost: 0
   - selected: 0
     walkable: 1
-    worldPosition: {x: 6.5, y: 0.001, z: 8.5}
+    worldPosition: {x: 6.5, y: 2.6209998, z: -0.5}
     gridPositionX: 16
-    gridPositionY: 18
+    gridPositionY: 2
+    gridPositionZ: 4
     gCost: 0
     hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 2.6209998, z: 0.5}
+    gridPositionX: 16
+    gridPositionY: 2
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 3.6209998, z: -1.5}
+    gridPositionX: 14
+    gridPositionY: 3
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 3.6209998, z: -0.5}
+    gridPositionX: 14
+    gridPositionY: 3
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 3.6209998, z: 0.5}
+    gridPositionX: 14
+    gridPositionY: 3
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 3.6209998, z: -1.5}
+    gridPositionX: 15
+    gridPositionY: 3
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 3.6209998, z: -1.5}
+    gridPositionX: 16
+    gridPositionY: 3
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 4.621, z: -1.5}
+    gridPositionX: 14
+    gridPositionY: 4
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 4.621, z: -0.5}
+    gridPositionX: 14
+    gridPositionY: 4
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 4.621, z: 0.5}
+    gridPositionX: 14
+    gridPositionY: 4
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 4.621, z: -1.5}
+    gridPositionX: 15
+    gridPositionY: 4
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 4.621, z: -1.5}
+    gridPositionX: 16
+    gridPositionY: 4
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 2.6209998, z: 1.5}
+    gridPositionX: 14
+    gridPositionY: 2
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 2.6209998, z: 1.5}
+    gridPositionX: 15
+    gridPositionY: 2
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 2.6209998, z: 1.5}
+    gridPositionX: 16
+    gridPositionY: 2
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 3.6209998, z: 1.5}
+    gridPositionX: 14
+    gridPositionY: 3
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 4.621, z: 1.5}
+    gridPositionX: 14
+    gridPositionY: 4
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 2.6209998, z: 2.5}
+    gridPositionX: 14
+    gridPositionY: 2
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 2.6209998, z: 2.5}
+    gridPositionX: 15
+    gridPositionY: 2
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 2.6209998, z: 2.5}
+    gridPositionX: 16
+    gridPositionY: 2
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 3.6209998, z: 2.5}
+    gridPositionX: 14
+    gridPositionY: 3
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 3.6209998, z: 2.5}
+    gridPositionX: 15
+    gridPositionY: 3
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 3.6209998, z: 2.5}
+    gridPositionX: 16
+    gridPositionY: 3
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 4.621, z: 2.5}
+    gridPositionX: 14
+    gridPositionY: 4
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 4.621, z: 2.5}
+    gridPositionX: 15
+    gridPositionY: 4
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 4.621, z: 2.5}
+    gridPositionX: 16
+    gridPositionY: 4
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 2.6209998, z: -1.5}
+    gridPositionX: 17
+    gridPositionY: 2
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 2.6209998, z: -0.5}
+    gridPositionX: 17
+    gridPositionY: 2
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 2.6209998, z: 0.5}
+    gridPositionX: 17
+    gridPositionY: 2
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 3.6209998, z: -1.5}
+    gridPositionX: 17
+    gridPositionY: 3
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 4.621, z: -1.5}
+    gridPositionX: 17
+    gridPositionY: 4
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 2.6209998, z: 1.5}
+    gridPositionX: 17
+    gridPositionY: 2
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 2.6209998, z: 2.5}
+    gridPositionX: 17
+    gridPositionY: 2
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 3.6209998, z: 2.5}
+    gridPositionX: 17
+    gridPositionY: 3
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 4.621, z: 2.5}
+    gridPositionX: 17
+    gridPositionY: 4
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 2.6209998, z: -1.5}
+    gridPositionX: 18
+    gridPositionY: 2
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 2.6209998, z: -0.5}
+    gridPositionX: 18
+    gridPositionY: 2
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 2.6209998, z: 0.5}
+    gridPositionX: 18
+    gridPositionY: 2
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 3.6209998, z: -1.5}
+    gridPositionX: 18
+    gridPositionY: 3
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 3.6209998, z: -0.5}
+    gridPositionX: 18
+    gridPositionY: 3
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 3.6209998, z: 0.5}
+    gridPositionX: 18
+    gridPositionY: 3
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 4.621, z: -1.5}
+    gridPositionX: 18
+    gridPositionY: 4
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 4.621, z: -0.5}
+    gridPositionX: 18
+    gridPositionY: 4
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 4.621, z: 0.5}
+    gridPositionX: 18
+    gridPositionY: 4
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 2.6209998, z: 1.5}
+    gridPositionX: 18
+    gridPositionY: 2
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 3.6209998, z: 1.5}
+    gridPositionX: 18
+    gridPositionY: 3
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 4.621, z: 1.5}
+    gridPositionX: 18
+    gridPositionY: 4
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 2.6209998, z: 2.5}
+    gridPositionX: 18
+    gridPositionY: 2
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 3.6209998, z: 2.5}
+    gridPositionX: 18
+    gridPositionY: 3
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 4.621, z: 2.5}
+    gridPositionX: 18
+    gridPositionY: 4
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 5.621, z: -1.5}
+    gridPositionX: 14
+    gridPositionY: 5
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 5.621, z: -0.5}
+    gridPositionX: 14
+    gridPositionY: 5
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 5.621, z: 0.5}
+    gridPositionX: 14
+    gridPositionY: 5
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 5.621, z: -1.5}
+    gridPositionX: 15
+    gridPositionY: 5
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 5.621, z: -1.5}
+    gridPositionX: 16
+    gridPositionY: 5
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 5.621, z: 1.5}
+    gridPositionX: 14
+    gridPositionY: 5
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 5.621, z: 2.5}
+    gridPositionX: 14
+    gridPositionY: 5
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 5.621, z: 2.5}
+    gridPositionX: 15
+    gridPositionY: 5
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 5.621, z: 2.5}
+    gridPositionX: 16
+    gridPositionY: 5
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 5.621, z: -1.5}
+    gridPositionX: 17
+    gridPositionY: 5
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 5.621, z: 2.5}
+    gridPositionX: 17
+    gridPositionY: 5
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 5.621, z: -1.5}
+    gridPositionX: 18
+    gridPositionY: 5
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 5.621, z: -0.5}
+    gridPositionX: 18
+    gridPositionY: 5
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 5.621, z: 0.5}
+    gridPositionX: 18
+    gridPositionY: 5
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 5.621, z: 1.5}
+    gridPositionX: 18
+    gridPositionY: 5
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 5.621, z: 2.5}
+    gridPositionX: 18
+    gridPositionY: 5
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 6.621, z: -1.5}
+    gridPositionX: 14
+    gridPositionY: 6
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 6.621, z: -0.5}
+    gridPositionX: 14
+    gridPositionY: 6
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 6.621, z: 0.5}
+    gridPositionX: 14
+    gridPositionY: 6
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 6.621, z: -1.5}
+    gridPositionX: 15
+    gridPositionY: 6
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 6.621, z: -0.5}
+    gridPositionX: 15
+    gridPositionY: 6
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 6.621, z: 0.5}
+    gridPositionX: 15
+    gridPositionY: 6
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 6.621, z: -1.5}
+    gridPositionX: 16
+    gridPositionY: 6
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 6.621, z: -0.5}
+    gridPositionX: 16
+    gridPositionY: 6
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 6.621, z: 0.5}
+    gridPositionX: 16
+    gridPositionY: 6
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 6.621, z: 1.5}
+    gridPositionX: 14
+    gridPositionY: 6
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 6.621, z: 1.5}
+    gridPositionX: 15
+    gridPositionY: 6
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 6.621, z: 1.5}
+    gridPositionX: 16
+    gridPositionY: 6
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 6.621, z: 2.5}
+    gridPositionX: 14
+    gridPositionY: 6
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 6.621, z: 2.5}
+    gridPositionX: 15
+    gridPositionY: 6
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 6.621, z: 2.5}
+    gridPositionX: 16
+    gridPositionY: 6
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 6.621, z: -1.5}
+    gridPositionX: 17
+    gridPositionY: 6
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 6.621, z: -0.5}
+    gridPositionX: 17
+    gridPositionY: 6
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 6.621, z: 0.5}
+    gridPositionX: 17
+    gridPositionY: 6
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 6.621, z: 1.5}
+    gridPositionX: 17
+    gridPositionY: 6
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 6.621, z: 2.5}
+    gridPositionX: 17
+    gridPositionY: 6
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 6.621, z: -1.5}
+    gridPositionX: 18
+    gridPositionY: 6
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 6.621, z: -0.5}
+    gridPositionX: 18
+    gridPositionY: 6
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 6.621, z: 0.5}
+    gridPositionX: 18
+    gridPositionY: 6
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 6.621, z: 1.5}
+    gridPositionX: 18
+    gridPositionY: 6
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 6.621, z: 2.5}
+    gridPositionX: 18
+    gridPositionY: 6
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 1.6209999, z: -2.5}
+    gridPositionX: 15
+    gridPositionY: 1
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 1.6209999, z: -1.5}
+    gridPositionX: 15
+    gridPositionY: 1
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 1.6209999, z: -0.5}
+    gridPositionX: 15
+    gridPositionY: 1
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 2.6209998, z: -2.5}
+    gridPositionX: 14
+    gridPositionY: 2
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 2.6209998, z: -2.5}
+    gridPositionX: 15
+    gridPositionY: 2
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 3.6209998, z: -2.5}
+    gridPositionX: 13
+    gridPositionY: 3
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 3.6209998, z: -1.5}
+    gridPositionX: 13
+    gridPositionY: 3
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 3.6209998, z: -0.5}
+    gridPositionX: 13
+    gridPositionY: 3
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 3.6209998, z: -2.5}
+    gridPositionX: 14
+    gridPositionY: 3
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 3.6209998, z: -2.5}
+    gridPositionX: 15
+    gridPositionY: 3
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 1.6209999, z: 0.5}
+    gridPositionX: 15
+    gridPositionY: 1
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 3.6209998, z: 0.5}
+    gridPositionX: 13
+    gridPositionY: 3
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 1.6209999, z: 1.5}
+    gridPositionX: 15
+    gridPositionY: 1
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 3.6209998, z: 1.5}
+    gridPositionX: 13
+    gridPositionY: 3
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 1.6209999, z: -2.5}
+    gridPositionX: 16
+    gridPositionY: 1
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 1.6209999, z: -1.5}
+    gridPositionX: 16
+    gridPositionY: 1
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 1.6209999, z: -0.5}
+    gridPositionX: 16
+    gridPositionY: 1
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 2.6209998, z: -2.5}
+    gridPositionX: 16
+    gridPositionY: 2
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 3.6209998, z: -2.5}
+    gridPositionX: 16
+    gridPositionY: 3
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 1.6209999, z: 0.5}
+    gridPositionX: 16
+    gridPositionY: 1
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 1.6209999, z: 1.5}
+    gridPositionX: 16
+    gridPositionY: 1
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 1.6209999, z: -2.5}
+    gridPositionX: 17
+    gridPositionY: 1
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 1.6209999, z: -1.5}
+    gridPositionX: 17
+    gridPositionY: 1
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 1.6209999, z: -0.5}
+    gridPositionX: 17
+    gridPositionY: 1
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 2.6209998, z: -2.5}
+    gridPositionX: 17
+    gridPositionY: 2
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 3.6209998, z: -2.5}
+    gridPositionX: 17
+    gridPositionY: 3
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 1.6209999, z: 0.5}
+    gridPositionX: 17
+    gridPositionY: 1
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 1.6209999, z: 1.5}
+    gridPositionX: 17
+    gridPositionY: 1
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 4.621, z: -2.5}
+    gridPositionX: 13
+    gridPositionY: 4
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 4.621, z: -1.5}
+    gridPositionX: 13
+    gridPositionY: 4
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 4.621, z: -0.5}
+    gridPositionX: 13
+    gridPositionY: 4
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 4.621, z: -2.5}
+    gridPositionX: 14
+    gridPositionY: 4
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 4.621, z: -2.5}
+    gridPositionX: 15
+    gridPositionY: 4
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 4.621, z: 0.5}
+    gridPositionX: 13
+    gridPositionY: 4
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 4.621, z: 1.5}
+    gridPositionX: 13
+    gridPositionY: 4
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 4.621, z: -2.5}
+    gridPositionX: 16
+    gridPositionY: 4
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 4.621, z: -2.5}
+    gridPositionX: 17
+    gridPositionY: 4
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 5.621, z: -2.5}
+    gridPositionX: 13
+    gridPositionY: 5
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 5.621, z: -1.5}
+    gridPositionX: 13
+    gridPositionY: 5
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 5.621, z: -0.5}
+    gridPositionX: 13
+    gridPositionY: 5
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 5.621, z: -2.5}
+    gridPositionX: 14
+    gridPositionY: 5
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 5.621, z: -2.5}
+    gridPositionX: 15
+    gridPositionY: 5
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 5.621, z: 0.5}
+    gridPositionX: 13
+    gridPositionY: 5
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 5.621, z: 1.5}
+    gridPositionX: 13
+    gridPositionY: 5
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 5.621, z: -2.5}
+    gridPositionX: 16
+    gridPositionY: 5
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 5.621, z: -2.5}
+    gridPositionX: 17
+    gridPositionY: 5
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 1.6209999, z: 2.5}
+    gridPositionX: 15
+    gridPositionY: 1
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 3.6209998, z: 2.5}
+    gridPositionX: 13
+    gridPositionY: 3
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 1.6209999, z: 2.5}
+    gridPositionX: 16
+    gridPositionY: 1
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 1.6209999, z: 2.5}
+    gridPositionX: 17
+    gridPositionY: 1
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 4.621, z: 2.5}
+    gridPositionX: 13
+    gridPositionY: 4
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 5.621, z: 2.5}
+    gridPositionX: 13
+    gridPositionY: 5
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 1.6209999, z: 3.5}
+    gridPositionX: 15
+    gridPositionY: 1
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 2.6209998, z: 3.5}
+    gridPositionX: 14
+    gridPositionY: 2
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 2.6209998, z: 3.5}
+    gridPositionX: 15
+    gridPositionY: 2
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 3.6209998, z: 3.5}
+    gridPositionX: 13
+    gridPositionY: 3
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 3.6209998, z: 3.5}
+    gridPositionX: 14
+    gridPositionY: 3
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 3.6209998, z: 3.5}
+    gridPositionX: 15
+    gridPositionY: 3
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 1.6209999, z: 3.5}
+    gridPositionX: 16
+    gridPositionY: 1
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 2.6209998, z: 3.5}
+    gridPositionX: 16
+    gridPositionY: 2
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 3.6209998, z: 3.5}
+    gridPositionX: 16
+    gridPositionY: 3
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 1.6209999, z: 3.5}
+    gridPositionX: 17
+    gridPositionY: 1
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 2.6209998, z: 3.5}
+    gridPositionX: 17
+    gridPositionY: 2
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 3.6209998, z: 3.5}
+    gridPositionX: 17
+    gridPositionY: 3
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 4.621, z: 3.5}
+    gridPositionX: 13
+    gridPositionY: 4
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 4.621, z: 3.5}
+    gridPositionX: 14
+    gridPositionY: 4
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 4.621, z: 3.5}
+    gridPositionX: 15
+    gridPositionY: 4
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 4.621, z: 3.5}
+    gridPositionX: 16
+    gridPositionY: 4
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 4.621, z: 3.5}
+    gridPositionX: 17
+    gridPositionY: 4
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 5.621, z: 3.5}
+    gridPositionX: 13
+    gridPositionY: 5
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 5.621, z: 3.5}
+    gridPositionX: 14
+    gridPositionY: 5
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 5.621, z: 3.5}
+    gridPositionX: 15
+    gridPositionY: 5
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 5.621, z: 3.5}
+    gridPositionX: 16
+    gridPositionY: 5
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 5.621, z: 3.5}
+    gridPositionX: 17
+    gridPositionY: 5
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 2.6209998, z: -2.5}
+    gridPositionX: 18
+    gridPositionY: 2
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 3.6209998, z: -2.5}
+    gridPositionX: 18
+    gridPositionY: 3
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 4.621, z: -2.5}
+    gridPositionX: 18
+    gridPositionY: 4
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 5.621, z: -2.5}
+    gridPositionX: 18
+    gridPositionY: 5
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 2.6209998, z: 3.5}
+    gridPositionX: 18
+    gridPositionY: 2
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 3.6209998, z: 3.5}
+    gridPositionX: 18
+    gridPositionY: 3
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 4.621, z: 3.5}
+    gridPositionX: 18
+    gridPositionY: 4
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 5.621, z: 3.5}
+    gridPositionX: 18
+    gridPositionY: 5
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 3.6209998, z: -2.5}
+    gridPositionX: 19
+    gridPositionY: 3
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 3.6209998, z: -1.5}
+    gridPositionX: 19
+    gridPositionY: 3
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 3.6209998, z: -0.5}
+    gridPositionX: 19
+    gridPositionY: 3
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 3.6209998, z: 0.5}
+    gridPositionX: 19
+    gridPositionY: 3
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 3.6209998, z: 1.5}
+    gridPositionX: 19
+    gridPositionY: 3
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 4.621, z: -2.5}
+    gridPositionX: 19
+    gridPositionY: 4
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 4.621, z: -1.5}
+    gridPositionX: 19
+    gridPositionY: 4
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 4.621, z: -0.5}
+    gridPositionX: 19
+    gridPositionY: 4
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 4.621, z: 0.5}
+    gridPositionX: 19
+    gridPositionY: 4
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 4.621, z: 1.5}
+    gridPositionX: 19
+    gridPositionY: 4
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 5.621, z: -2.5}
+    gridPositionX: 19
+    gridPositionY: 5
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 5.621, z: -1.5}
+    gridPositionX: 19
+    gridPositionY: 5
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 5.621, z: -0.5}
+    gridPositionX: 19
+    gridPositionY: 5
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 5.621, z: 0.5}
+    gridPositionX: 19
+    gridPositionY: 5
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 5.621, z: 1.5}
+    gridPositionX: 19
+    gridPositionY: 5
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 3.6209998, z: 2.5}
+    gridPositionX: 19
+    gridPositionY: 3
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 4.621, z: 2.5}
+    gridPositionX: 19
+    gridPositionY: 4
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 5.621, z: 2.5}
+    gridPositionX: 19
+    gridPositionY: 5
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 3.6209998, z: 3.5}
+    gridPositionX: 19
+    gridPositionY: 3
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 4.621, z: 3.5}
+    gridPositionX: 19
+    gridPositionY: 4
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 5.621, z: 3.5}
+    gridPositionX: 19
+    gridPositionY: 5
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 6.621, z: -2.5}
+    gridPositionX: 14
+    gridPositionY: 6
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 6.621, z: -2.5}
+    gridPositionX: 15
+    gridPositionY: 6
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 6.621, z: -2.5}
+    gridPositionX: 16
+    gridPositionY: 6
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 6.621, z: -2.5}
+    gridPositionX: 17
+    gridPositionY: 6
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 6.621, z: 3.5}
+    gridPositionX: 14
+    gridPositionY: 6
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 6.621, z: 3.5}
+    gridPositionX: 15
+    gridPositionY: 6
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 6.621, z: 3.5}
+    gridPositionX: 16
+    gridPositionY: 6
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 6.621, z: 3.5}
+    gridPositionX: 17
+    gridPositionY: 6
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 6.621, z: -2.5}
+    gridPositionX: 18
+    gridPositionY: 6
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 6.621, z: 3.5}
+    gridPositionX: 18
+    gridPositionY: 6
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 7.621, z: -2.5}
+    gridPositionX: 15
+    gridPositionY: 7
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 7.621, z: -1.5}
+    gridPositionX: 15
+    gridPositionY: 7
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 7.621, z: -0.5}
+    gridPositionX: 15
+    gridPositionY: 7
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 7.621, z: 0.5}
+    gridPositionX: 15
+    gridPositionY: 7
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 7.621, z: 1.5}
+    gridPositionX: 15
+    gridPositionY: 7
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 7.621, z: -2.5}
+    gridPositionX: 16
+    gridPositionY: 7
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 7.621, z: -1.5}
+    gridPositionX: 16
+    gridPositionY: 7
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 7.621, z: -0.5}
+    gridPositionX: 16
+    gridPositionY: 7
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 7.621, z: 0.5}
+    gridPositionX: 16
+    gridPositionY: 7
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 7.621, z: 1.5}
+    gridPositionX: 16
+    gridPositionY: 7
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 7.621, z: -2.5}
+    gridPositionX: 17
+    gridPositionY: 7
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 7.621, z: -1.5}
+    gridPositionX: 17
+    gridPositionY: 7
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 7.621, z: -0.5}
+    gridPositionX: 17
+    gridPositionY: 7
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 7.621, z: 0.5}
+    gridPositionX: 17
+    gridPositionY: 7
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 7.621, z: 1.5}
+    gridPositionX: 17
+    gridPositionY: 7
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 7.621, z: 2.5}
+    gridPositionX: 15
+    gridPositionY: 7
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 7.621, z: 2.5}
+    gridPositionX: 16
+    gridPositionY: 7
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 7.621, z: 2.5}
+    gridPositionX: 17
+    gridPositionY: 7
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 7.621, z: 3.5}
+    gridPositionX: 15
+    gridPositionY: 7
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 7.621, z: 3.5}
+    gridPositionX: 16
+    gridPositionY: 7
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 7.621, z: 3.5}
+    gridPositionX: 17
+    gridPositionY: 7
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 0.6209999, z: -3.5}
+    gridPositionX: 16
+    gridPositionY: 0
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 0.6209999, z: -2.5}
+    gridPositionX: 16
+    gridPositionY: 0
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 0.6209999, z: -1.5}
+    gridPositionX: 16
+    gridPositionY: 0
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 1.6209999, z: -3.5}
+    gridPositionX: 15
+    gridPositionY: 1
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 1.6209999, z: -3.5}
+    gridPositionX: 16
+    gridPositionY: 1
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 2.6209998, z: -3.5}
+    gridPositionX: 14
+    gridPositionY: 2
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 2.6209998, z: -3.5}
+    gridPositionX: 15
+    gridPositionY: 2
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 2.6209998, z: -3.5}
+    gridPositionX: 16
+    gridPositionY: 2
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 0.6209999, z: -0.5}
+    gridPositionX: 16
+    gridPositionY: 0
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 0.6209999, z: 0.5}
+    gridPositionX: 16
+    gridPositionY: 0
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 3.6209998, z: -3.5}
+    gridPositionX: 13
+    gridPositionY: 3
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 3.6209998, z: -3.5}
+    gridPositionX: 14
+    gridPositionY: 3
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 3.6209998, z: -3.5}
+    gridPositionX: 15
+    gridPositionY: 3
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 3.6209998, z: -3.5}
+    gridPositionX: 16
+    gridPositionY: 3
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 2.5, y: 4.621, z: -3.5}
+    gridPositionX: 12
+    gridPositionY: 4
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 2.5, y: 4.621, z: -2.5}
+    gridPositionX: 12
+    gridPositionY: 4
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 2.5, y: 4.621, z: -1.5}
+    gridPositionX: 12
+    gridPositionY: 4
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 4.621, z: -3.5}
+    gridPositionX: 13
+    gridPositionY: 4
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 4.621, z: -3.5}
+    gridPositionX: 14
+    gridPositionY: 4
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 2.5, y: 4.621, z: -0.5}
+    gridPositionX: 12
+    gridPositionY: 4
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 2.5, y: 4.621, z: 0.5}
+    gridPositionX: 12
+    gridPositionY: 4
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 4.621, z: -3.5}
+    gridPositionX: 15
+    gridPositionY: 4
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 4.621, z: -3.5}
+    gridPositionX: 16
+    gridPositionY: 4
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 0.6209999, z: 1.5}
+    gridPositionX: 16
+    gridPositionY: 0
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 2.5, y: 4.621, z: 1.5}
+    gridPositionX: 12
+    gridPositionY: 4
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 0.6209999, z: 2.5}
+    gridPositionX: 16
+    gridPositionY: 0
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 2.5, y: 4.621, z: 2.5}
+    gridPositionX: 12
+    gridPositionY: 4
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 1.6209999, z: -3.5}
+    gridPositionX: 17
+    gridPositionY: 1
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 2.6209998, z: -3.5}
+    gridPositionX: 17
+    gridPositionY: 2
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 3.6209998, z: -3.5}
+    gridPositionX: 17
+    gridPositionY: 3
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 4.621, z: -3.5}
+    gridPositionX: 17
+    gridPositionY: 4
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 2.6209998, z: -3.5}
+    gridPositionX: 18
+    gridPositionY: 2
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 3.6209998, z: -3.5}
+    gridPositionX: 18
+    gridPositionY: 3
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 4.621, z: -3.5}
+    gridPositionX: 18
+    gridPositionY: 4
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 5.621, z: -3.5}
+    gridPositionX: 13
+    gridPositionY: 5
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 5.621, z: -3.5}
+    gridPositionX: 14
+    gridPositionY: 5
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 5.621, z: -3.5}
+    gridPositionX: 15
+    gridPositionY: 5
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 5.621, z: -3.5}
+    gridPositionX: 16
+    gridPositionY: 5
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 5.621, z: -3.5}
+    gridPositionX: 17
+    gridPositionY: 5
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 5.621, z: -3.5}
+    gridPositionX: 18
+    gridPositionY: 5
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 6.621, z: -3.5}
+    gridPositionX: 14
+    gridPositionY: 6
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 6.621, z: -3.5}
+    gridPositionX: 15
+    gridPositionY: 6
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 6.621, z: -3.5}
+    gridPositionX: 16
+    gridPositionY: 6
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 6.621, z: -3.5}
+    gridPositionX: 17
+    gridPositionY: 6
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 6.621, z: -3.5}
+    gridPositionX: 18
+    gridPositionY: 6
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 0.6209999, z: 3.5}
+    gridPositionX: 16
+    gridPositionY: 0
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 2.5, y: 4.621, z: 3.5}
+    gridPositionX: 12
+    gridPositionY: 4
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 0.6209999, z: 4.5}
+    gridPositionX: 16
+    gridPositionY: 0
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 1.6209999, z: 4.5}
+    gridPositionX: 15
+    gridPositionY: 1
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 1.6209999, z: 4.5}
+    gridPositionX: 16
+    gridPositionY: 1
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 2.6209998, z: 4.5}
+    gridPositionX: 14
+    gridPositionY: 2
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 2.6209998, z: 4.5}
+    gridPositionX: 15
+    gridPositionY: 2
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 2.6209998, z: 4.5}
+    gridPositionX: 16
+    gridPositionY: 2
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 3.6209998, z: 4.5}
+    gridPositionX: 13
+    gridPositionY: 3
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 3.6209998, z: 4.5}
+    gridPositionX: 14
+    gridPositionY: 3
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 3.6209998, z: 4.5}
+    gridPositionX: 15
+    gridPositionY: 3
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 3.6209998, z: 4.5}
+    gridPositionX: 16
+    gridPositionY: 3
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 2.5, y: 4.621, z: 4.5}
+    gridPositionX: 12
+    gridPositionY: 4
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 4.621, z: 4.5}
+    gridPositionX: 13
+    gridPositionY: 4
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 4.621, z: 4.5}
+    gridPositionX: 14
+    gridPositionY: 4
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 4.621, z: 4.5}
+    gridPositionX: 15
+    gridPositionY: 4
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 4.621, z: 4.5}
+    gridPositionX: 16
+    gridPositionY: 4
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 1.6209999, z: 4.5}
+    gridPositionX: 17
+    gridPositionY: 1
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 2.6209998, z: 4.5}
+    gridPositionX: 17
+    gridPositionY: 2
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 3.6209998, z: 4.5}
+    gridPositionX: 17
+    gridPositionY: 3
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 4.621, z: 4.5}
+    gridPositionX: 17
+    gridPositionY: 4
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 2.6209998, z: 4.5}
+    gridPositionX: 18
+    gridPositionY: 2
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 3.6209998, z: 4.5}
+    gridPositionX: 18
+    gridPositionY: 3
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 4.621, z: 4.5}
+    gridPositionX: 18
+    gridPositionY: 4
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 5.621, z: 4.5}
+    gridPositionX: 13
+    gridPositionY: 5
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 5.621, z: 4.5}
+    gridPositionX: 14
+    gridPositionY: 5
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 5.621, z: 4.5}
+    gridPositionX: 15
+    gridPositionY: 5
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 5.621, z: 4.5}
+    gridPositionX: 16
+    gridPositionY: 5
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 5.621, z: 4.5}
+    gridPositionX: 17
+    gridPositionY: 5
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 5.621, z: 4.5}
+    gridPositionX: 18
+    gridPositionY: 5
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 6.621, z: 4.5}
+    gridPositionX: 14
+    gridPositionY: 6
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 6.621, z: 4.5}
+    gridPositionX: 15
+    gridPositionY: 6
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 6.621, z: 4.5}
+    gridPositionX: 16
+    gridPositionY: 6
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 6.621, z: 4.5}
+    gridPositionX: 17
+    gridPositionY: 6
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 6.621, z: 4.5}
+    gridPositionX: 18
+    gridPositionY: 6
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 3.6209998, z: -3.5}
+    gridPositionX: 19
+    gridPositionY: 3
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 4.621, z: -3.5}
+    gridPositionX: 19
+    gridPositionY: 4
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 5.621, z: -3.5}
+    gridPositionX: 19
+    gridPositionY: 5
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 3.6209998, z: 4.5}
+    gridPositionX: 19
+    gridPositionY: 3
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 4.621, z: 4.5}
+    gridPositionX: 19
+    gridPositionY: 4
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 5.621, z: 4.5}
+    gridPositionX: 19
+    gridPositionY: 5
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 7.621, z: -3.5}
+    gridPositionX: 15
+    gridPositionY: 7
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 7.621, z: -3.5}
+    gridPositionX: 16
+    gridPositionY: 7
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 7.621, z: -3.5}
+    gridPositionX: 17
+    gridPositionY: 7
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 7.621, z: 4.5}
+    gridPositionX: 15
+    gridPositionY: 7
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 7.621, z: 4.5}
+    gridPositionX: 16
+    gridPositionY: 7
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 7.621, z: 4.5}
+    gridPositionX: 17
+    gridPositionY: 7
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 8.621, z: -3.5}
+    gridPositionX: 16
+    gridPositionY: 8
+    gridPositionZ: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 8.621, z: -2.5}
+    gridPositionX: 16
+    gridPositionY: 8
+    gridPositionZ: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 8.621, z: -1.5}
+    gridPositionX: 16
+    gridPositionY: 8
+    gridPositionZ: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 8.621, z: -0.5}
+    gridPositionX: 16
+    gridPositionY: 8
+    gridPositionZ: 4
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 8.621, z: 0.5}
+    gridPositionX: 16
+    gridPositionY: 8
+    gridPositionZ: 5
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 8.621, z: 1.5}
+    gridPositionX: 16
+    gridPositionY: 8
+    gridPositionZ: 6
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 8.621, z: 2.5}
+    gridPositionX: 16
+    gridPositionY: 8
+    gridPositionZ: 7
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 8.621, z: 3.5}
+    gridPositionX: 16
+    gridPositionY: 8
+    gridPositionZ: 8
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 8.621, z: 4.5}
+    gridPositionX: 16
+    gridPositionY: 8
+    gridPositionZ: 9
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 0.6209999, z: -4.5}
+    gridPositionX: 16
+    gridPositionY: 0
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 1.6209999, z: -4.5}
+    gridPositionX: 15
+    gridPositionY: 1
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 1.6209999, z: -4.5}
+    gridPositionX: 16
+    gridPositionY: 1
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 1.6209999, z: -4.5}
+    gridPositionX: 17
+    gridPositionY: 1
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 2.6209998, z: -4.5}
+    gridPositionX: 14
+    gridPositionY: 2
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 2.6209998, z: -4.5}
+    gridPositionX: 15
+    gridPositionY: 2
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 2.6209998, z: -4.5}
+    gridPositionX: 16
+    gridPositionY: 2
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 2.6209998, z: -4.5}
+    gridPositionX: 17
+    gridPositionY: 2
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 3.6209998, z: -4.5}
+    gridPositionX: 13
+    gridPositionY: 3
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 3.6209998, z: -4.5}
+    gridPositionX: 14
+    gridPositionY: 3
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 3.6209998, z: -4.5}
+    gridPositionX: 15
+    gridPositionY: 3
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 3.6209998, z: -4.5}
+    gridPositionX: 16
+    gridPositionY: 3
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 3.6209998, z: -4.5}
+    gridPositionX: 17
+    gridPositionY: 3
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 2.5, y: 4.621, z: -4.5}
+    gridPositionX: 12
+    gridPositionY: 4
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 4.621, z: -4.5}
+    gridPositionX: 13
+    gridPositionY: 4
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 4.621, z: -4.5}
+    gridPositionX: 14
+    gridPositionY: 4
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 4.621, z: -4.5}
+    gridPositionX: 15
+    gridPositionY: 4
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 4.621, z: -4.5}
+    gridPositionX: 16
+    gridPositionY: 4
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 4.621, z: -4.5}
+    gridPositionX: 17
+    gridPositionY: 4
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3.5, y: 5.621, z: -4.5}
+    gridPositionX: 13
+    gridPositionY: 5
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 5.621, z: -4.5}
+    gridPositionX: 14
+    gridPositionY: 5
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 5.621, z: -4.5}
+    gridPositionX: 15
+    gridPositionY: 5
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 5.621, z: -4.5}
+    gridPositionX: 16
+    gridPositionY: 5
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 5.621, z: -4.5}
+    gridPositionX: 17
+    gridPositionY: 5
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 2.6209998, z: -4.5}
+    gridPositionX: 18
+    gridPositionY: 2
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 3.6209998, z: -4.5}
+    gridPositionX: 18
+    gridPositionY: 3
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 4.621, z: -4.5}
+    gridPositionX: 18
+    gridPositionY: 4
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 5.621, z: -4.5}
+    gridPositionX: 18
+    gridPositionY: 5
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 3.6209998, z: -4.5}
+    gridPositionX: 19
+    gridPositionY: 3
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 4.621, z: -4.5}
+    gridPositionX: 19
+    gridPositionY: 4
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 9.5, y: 5.621, z: -4.5}
+    gridPositionX: 19
+    gridPositionY: 5
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 4.5, y: 6.621, z: -4.5}
+    gridPositionX: 14
+    gridPositionY: 6
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 6.621, z: -4.5}
+    gridPositionX: 15
+    gridPositionY: 6
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 6.621, z: -4.5}
+    gridPositionX: 16
+    gridPositionY: 6
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 6.621, z: -4.5}
+    gridPositionX: 17
+    gridPositionY: 6
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 8.5, y: 6.621, z: -4.5}
+    gridPositionX: 18
+    gridPositionY: 6
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5.5, y: 7.621, z: -4.5}
+    gridPositionX: 15
+    gridPositionY: 7
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 7.621, z: -4.5}
+    gridPositionX: 16
+    gridPositionY: 7
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7.5, y: 7.621, z: -4.5}
+    gridPositionX: 17
+    gridPositionY: 7
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 6.5, y: 8.621, z: -4.5}
+    gridPositionX: 16
+    gridPositionY: 8
+    gridPositionZ: 0
+    gCost: 0
+    hCost: 0
+  WithinRangeNodes: []
   DrawGizmos: 1
 --- !u!1 &900430257
 GameObject:
@@ -1814,15 +3894,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1ed3baf7159d894b90e9fae6a5e040a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayGridGizmos: 1
+  displayGridGizmos: 0
   unwalkableMask:
     serializedVersion: 2
     m_Bits: 64
-  gridWorldSize: {x: 20, y: 20}
+  gridWorldSize: {x: 20, y: 10, z: 10}
   nodeRadius: 0.5
   quadOffset: 0.001
   gizmoHeight: 0.3
-  gizmoBoundry: 0
+  gizmoBoundry: 0.66
 --- !u!114 &948080844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1841,126 +3921,15 @@ MonoBehaviour:
   maximumCount: 4
   target: {fileID: 636977230}
   unit: {fileID: 729250267}
-  withinRangeNodes:
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: -2.5, y: 0.001, z: -0.5}
-    gridPositionX: 7
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: -1.5, y: 0.001, z: -1.5}
-    gridPositionX: 8
-    gridPositionY: 8
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: -1.5, y: 0.001, z: 0.5}
-    gridPositionX: 8
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: -0.5, y: 0.001, z: -2.5}
-    gridPositionX: 9
-    gridPositionY: 7
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: -0.5, y: 0.001, z: 1.5}
-    gridPositionX: 9
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 0.5, y: 0.001, z: -3.5}
-    gridPositionX: 10
-    gridPositionY: 6
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 0.5, y: 0.001, z: 2.5}
-    gridPositionX: 10
-    gridPositionY: 12
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 1.5, y: 0.001, z: -4.5}
-    gridPositionX: 11
-    gridPositionY: 5
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 2.5, y: 0.001, z: -3.5}
-    gridPositionX: 12
-    gridPositionY: 6
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 3.5, y: 0.001, z: -2.5}
-    gridPositionX: 13
-    gridPositionY: 7
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: -1.5}
-    gridPositionX: 14
-    gridPositionY: 8
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 1.5, y: 0.001, z: 3.5}
-    gridPositionX: 11
-    gridPositionY: 13
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 2.5, y: 0.001, z: 2.5}
-    gridPositionX: 12
-    gridPositionY: 12
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 3.5, y: 0.001, z: 1.5}
-    gridPositionX: 13
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: 0.5}
-    gridPositionX: 14
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: -0.5}
-    gridPositionX: 15
-    gridPositionY: 9
-    gCost: 0
-    hCost: 0
+  withinRangeNodes: []
   gizmoGrid: 1
   closestNode:
     selected: 0
-    walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: 0.5}
-    gridPositionX: 14
-    gridPositionY: 10
+    walkable: 0
+    worldPosition: {x: 0, y: 0, z: 0}
+    gridPositionX: 0
+    gridPositionY: 0
+    gridPositionZ: 0
     gCost: 0
     hCost: 0
 --- !u!1 &1014748910
@@ -2260,6 +4229,7 @@ MonoBehaviour:
     worldPosition: {x: 0, y: 0, z: 0}
     gridPositionX: 0
     gridPositionY: 0
+    gridPositionZ: 0
     gCost: 0
     hCost: 0
   grid: {fileID: 948080842}
@@ -2625,7 +4595,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5800267543415182426, guid: 39012723a9daf944f911791596d1c22f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 5.12
       objectReference: {fileID: 0}
     - target: {fileID: 5800267543415182426, guid: 39012723a9daf944f911791596d1c22f, type: 3}
       propertyPath: m_LocalPosition.z
