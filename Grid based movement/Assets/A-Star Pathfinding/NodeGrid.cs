@@ -17,6 +17,8 @@ namespace Assets
 		int gridSizeX, gridSizeY;
 		public int MaxSize => gridSizeX * gridSizeY;
 		public float quadOffset;
+		[SerializeField] private GameObject gridNodes;
+		[SerializeField] private GameObject nodePrefab;
 		void Awake()
 		{
 			SetAndCreateGrid();
@@ -32,6 +34,13 @@ namespace Assets
 
 		private void CreateGrid()
 		{
+			if(gridNodes != null)
+			{
+				DestroyImmediate(gridNodes);
+			}
+			gridNodes = new GameObject() { name = "Grid Nodes"};
+			gridNodes.transform.position = new Vector3(0, 0, 0);
+
 			grid = new Node[gridSizeX, gridSizeY];
 			Vector3 worldBottomLeft = transform.position - Vector3.right * gridWorldSize.x / 2 - Vector3.forward * gridWorldSize.y / 2;
 
@@ -43,6 +52,10 @@ namespace Assets
 					bool walkable = !(Physics.CheckSphere(worldPoint, nodeRadius, unwalkableMask));
 
 					worldPoint.y += quadOffset;
+
+					GameObject nodeObject = Instantiate(nodePrefab);
+					nodeObject.transform.position = worldPoint;
+					nodeObject.transform.parent = gridNodes.transform;
 					grid[x, y] = new Node(walkable, worldPoint, x, y);
 				}
 			}

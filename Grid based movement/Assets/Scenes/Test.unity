@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 729250269}
   - component: {fileID: 729250272}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1556,7 +1556,7 @@ MonoBehaviour:
     gridPositionY: 18
     gCost: 0
     hCost: 0
-  DrawGizmos: 1
+  DrawGizmos: 0
 --- !u!1 &900430257
 GameObject:
   m_ObjectHideFlags: 0
@@ -1819,8 +1819,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   gridWorldSize: {x: 20, y: 20}
-  nodeRadius: 0.5
-  quadOffset: 0.001
+  nodeRadius: 1
+  quadOffset: 1
   gizmoHeight: 0.3
   gizmoBoundry: 0
 --- !u!114 &948080844
@@ -1844,123 +1844,123 @@ MonoBehaviour:
   withinRangeNodes:
   - selected: 0
     walkable: 1
-    worldPosition: {x: -2.5, y: 0.001, z: -0.5}
-    gridPositionX: 7
-    gridPositionY: 9
+    worldPosition: {x: -7, y: 1, z: -1}
+    gridPositionX: 1
+    gridPositionY: 4
     gCost: 0
     hCost: 0
   - selected: 0
     walkable: 1
-    worldPosition: {x: -1.5, y: 0.001, z: -1.5}
-    gridPositionX: 8
-    gridPositionY: 8
+    worldPosition: {x: -5, y: 1, z: -3}
+    gridPositionX: 2
+    gridPositionY: 3
     gCost: 0
     hCost: 0
   - selected: 0
     walkable: 1
-    worldPosition: {x: -1.5, y: 0.001, z: 0.5}
-    gridPositionX: 8
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: -0.5, y: 0.001, z: -2.5}
-    gridPositionX: 9
-    gridPositionY: 7
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: -0.5, y: 0.001, z: 1.5}
-    gridPositionX: 9
-    gridPositionY: 11
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 0.5, y: 0.001, z: -3.5}
-    gridPositionX: 10
-    gridPositionY: 6
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 0.5, y: 0.001, z: 2.5}
-    gridPositionX: 10
-    gridPositionY: 12
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 1.5, y: 0.001, z: -4.5}
-    gridPositionX: 11
+    worldPosition: {x: -5, y: 1, z: 1}
+    gridPositionX: 2
     gridPositionY: 5
     gCost: 0
     hCost: 0
   - selected: 0
     walkable: 1
-    worldPosition: {x: 2.5, y: 0.001, z: -3.5}
-    gridPositionX: 12
+    worldPosition: {x: -3, y: 1, z: -5}
+    gridPositionX: 3
+    gridPositionY: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: -3, y: 1, z: 3}
+    gridPositionX: 3
     gridPositionY: 6
     gCost: 0
     hCost: 0
   - selected: 0
     walkable: 1
-    worldPosition: {x: 3.5, y: 0.001, z: -2.5}
-    gridPositionX: 13
+    worldPosition: {x: -1, y: 1, z: -7}
+    gridPositionX: 4
+    gridPositionY: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: -1, y: 1, z: 5}
+    gridPositionX: 4
     gridPositionY: 7
     gCost: 0
     hCost: 0
   - selected: 0
     walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: -1.5}
-    gridPositionX: 14
+    worldPosition: {x: 1, y: 1, z: -9}
+    gridPositionX: 5
+    gridPositionY: 0
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 3, y: 1, z: -7}
+    gridPositionX: 6
+    gridPositionY: 1
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 5, y: 1, z: -5}
+    gridPositionX: 7
+    gridPositionY: 2
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 7, y: 1, z: -3}
+    gridPositionX: 8
+    gridPositionY: 3
+    gCost: 0
+    hCost: 0
+  - selected: 0
+    walkable: 1
+    worldPosition: {x: 1, y: 1, z: 7}
+    gridPositionX: 5
     gridPositionY: 8
     gCost: 0
     hCost: 0
   - selected: 0
     walkable: 1
-    worldPosition: {x: 1.5, y: 0.001, z: 3.5}
-    gridPositionX: 11
-    gridPositionY: 13
+    worldPosition: {x: 3, y: 1, z: 5}
+    gridPositionX: 6
+    gridPositionY: 7
     gCost: 0
     hCost: 0
   - selected: 0
     walkable: 1
-    worldPosition: {x: 2.5, y: 0.001, z: 2.5}
-    gridPositionX: 12
-    gridPositionY: 12
+    worldPosition: {x: 5, y: 1, z: 3}
+    gridPositionX: 7
+    gridPositionY: 6
     gCost: 0
     hCost: 0
   - selected: 0
     walkable: 1
-    worldPosition: {x: 3.5, y: 0.001, z: 1.5}
-    gridPositionX: 13
-    gridPositionY: 11
+    worldPosition: {x: 7, y: 1, z: 1}
+    gridPositionX: 8
+    gridPositionY: 5
     gCost: 0
     hCost: 0
   - selected: 0
     walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: 0.5}
-    gridPositionX: 14
-    gridPositionY: 10
-    gCost: 0
-    hCost: 0
-  - selected: 0
-    walkable: 1
-    worldPosition: {x: 5.5, y: 0.001, z: -0.5}
-    gridPositionX: 15
-    gridPositionY: 9
+    worldPosition: {x: 9, y: 1, z: -1}
+    gridPositionX: 9
+    gridPositionY: 4
     gCost: 0
     hCost: 0
   gizmoGrid: 1
   closestNode:
     selected: 0
     walkable: 1
-    worldPosition: {x: 4.5, y: 0.001, z: 0.5}
-    gridPositionX: 14
-    gridPositionY: 10
+    worldPosition: {x: 5, y: 1, z: 3}
+    gridPositionX: 7
+    gridPositionY: 6
     gCost: 0
     hCost: 0
 --- !u!1 &1014748910
@@ -2666,3 +2666,60 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 5800267543415182425, guid: 39012723a9daf944f911791596d1c22f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 39012723a9daf944f911791596d1c22f, type: 3}
+--- !u!1001 &7738433501713378482
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4809194038819991208, guid: 5ec26ed04487f794fba124da11d58815, type: 3}
+      propertyPath: m_Name
+      value: Node
+      objectReference: {fileID: 0}
+    - target: {fileID: 5036637148665371817, guid: 5ec26ed04487f794fba124da11d58815, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5036637148665371817, guid: 5ec26ed04487f794fba124da11d58815, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 5036637148665371817, guid: 5ec26ed04487f794fba124da11d58815, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5036637148665371817, guid: 5ec26ed04487f794fba124da11d58815, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5036637148665371817, guid: 5ec26ed04487f794fba124da11d58815, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5036637148665371817, guid: 5ec26ed04487f794fba124da11d58815, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5036637148665371817, guid: 5ec26ed04487f794fba124da11d58815, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5036637148665371817, guid: 5ec26ed04487f794fba124da11d58815, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5036637148665371817, guid: 5ec26ed04487f794fba124da11d58815, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5036637148665371817, guid: 5ec26ed04487f794fba124da11d58815, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5036637148665371817, guid: 5ec26ed04487f794fba124da11d58815, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5ec26ed04487f794fba124da11d58815, type: 3}
