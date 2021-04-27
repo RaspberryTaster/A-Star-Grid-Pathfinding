@@ -13,14 +13,16 @@ public class Node : IHeapItem<Node>
 	public int gCost;
 	public int hCost;
 	public Node parent;
+	public NodeObject nodeObject;
 	int heapIndex;
 
-	public Node(bool _walkable, Vector3 _worldPos, int _gridX, int _gridY)
+	public Node(bool _walkable, Vector3 _worldPos, int _gridX, int _gridY, NodeObject nodeObject = null)
 	{
 		walkable = _walkable;
 		worldPosition = _worldPos;
 		gridPositionX = _gridX;
 		gridPositionY = _gridY;
+		this.nodeObject = nodeObject;
 	}
 
 	public int fCost
@@ -56,5 +58,12 @@ public class Node : IHeapItem<Node>
 	public string Designation()
 	{
 		return $"World position: [{worldPosition}], Grid position: [{gridPositionX}, {gridPositionY}]";
+	}
+
+
+	public void SetColor(Color color)
+	{
+		if (nodeObject == null) return;
+		nodeObject.ApplyColor(color);
 	}
 }

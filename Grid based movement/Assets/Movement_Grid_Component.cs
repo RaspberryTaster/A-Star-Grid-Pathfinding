@@ -11,11 +11,29 @@ public class Movement_Grid_Component : MonoBehaviour
 	public Pathfinding Pathfinding;
 	public NodeGrid grid;
 
+	public Color defaultColor;
 	[Button("Get distance nodes")]
 	public void GetDistanceNodes()
 	{
+		foreach(Node n in WithinRangeNodes)
+		{
+			n.SetColor(defaultColor);
+		}
+		foreach(Node n in MovementNodes)
+		{
+			n.SetColor(defaultColor);
+		}
+
 		MovementNodes = PathfindDistance(grid.NodeFromWorldPoint(transform.position));
 		WithinRangeNodes = PredictedRangeNodes(MovementNodes);
+		foreach (Node n in WithinRangeNodes)
+		{
+			n.SetColor(Color.magenta);
+		}
+		foreach (Node n in MovementNodes)
+		{
+			n.SetColor(Color.yellow);
+		}
 	}
 
 	public List<Node> MovementNodes = new List<Node>();

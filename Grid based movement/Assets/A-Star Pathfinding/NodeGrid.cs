@@ -18,7 +18,7 @@ namespace Assets
 		public int MaxSize => gridSizeX * gridSizeY;
 		public float quadOffset;
 		[SerializeField] private GameObject gridNodes;
-		[SerializeField] private GameObject nodePrefab;
+		[SerializeField] private NodeObject nodePrefab;
 		void Awake()
 		{
 			SetAndCreateGrid();
@@ -53,10 +53,10 @@ namespace Assets
 
 					worldPoint.y += quadOffset;
 
-					GameObject nodeObject = Instantiate(nodePrefab);
+					NodeObject nodeObject = Instantiate(nodePrefab);
 					nodeObject.transform.position = worldPoint;
 					nodeObject.transform.parent = gridNodes.transform;
-					grid[x, y] = new Node(walkable, worldPoint, x, y);
+					grid[x, y] = new Node(walkable, worldPoint, x, y, nodeObject);
 				}
 			}
 		}
