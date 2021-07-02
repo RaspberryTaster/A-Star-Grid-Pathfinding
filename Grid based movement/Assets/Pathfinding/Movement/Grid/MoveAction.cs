@@ -4,14 +4,14 @@ using Raspberry.Movement.Actions;
 public class MoveAction : IAction
 {
 	private Unit unit;
-	private Movement_Grid_Component Movement_Grid_Component;
+	private UnitMovement Movement_Grid_Component;
 	private QueueComponent queueComponent;
 	private Node selectedNode;
 	private int stoppingDistance;
 	public IAction[] preActions;
 	private bool reachedDestination = false;
 
-	public MoveAction(Unit unit, QueueComponent queueComponent, Node selectedNode, int stoppingDistance, Movement_Grid_Component movement_Grid_Component, IAction[] preActions = null)
+	public MoveAction(Unit unit, QueueComponent queueComponent, Node selectedNode, int stoppingDistance, UnitMovement movement_Grid_Component, IAction[] preActions = null)
 	{
 		this.unit = unit;
 		this.queueComponent = queueComponent;

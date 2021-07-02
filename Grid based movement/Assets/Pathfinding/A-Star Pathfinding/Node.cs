@@ -23,6 +23,7 @@ public class Node : IHeapItem<Node>
 		gridPositionX = _gridX;
 		gridPositionY = _gridY;
 		this.nodeObject = nodeObject;
+		this.nodeObject.transform.position = worldPosition;
 	}
 
 	public int fCost

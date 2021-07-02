@@ -4,62 +4,18 @@ using UnityEngine;
 
 namespace Assets
 {
-	public class NodeGrid : MonoBehaviour
+	public class NodeGrid
 	{
-		public bool displayGridGizmos;
-		public LayerMask unwalkableMask;
-		public Vector2 gridWorldSize;
-		public float nodeRadius;
-		Node[,] grid;
+		public Node[,] NodeArray;
+		public Vector2Int GridSize = new Vector2Int();
 
-		public float nodeDiameter => nodeRadius * 2;
-
-		int gridSizeX, gridSizeY;
-		public int MaxSize => gridSizeX * gridSizeY;
-		public float quadOffset;
-		[SerializeField] private GameObject gridNodes;
-		[SerializeField] private NodeObject nodePrefab;
-		void Awake()
+		public NodeGrid(Vector2Int gridSize)
 		{
-			SetAndCreateGrid();
+			GridSize = gridSize;
+			NodeArray = new Node[GridSize.x, GridSize.y];
 		}
 
-		[Button("Create grid")]
-		private void SetAndCreateGrid()
-		{
-			gridSizeX = Mathf.RoundToInt(gridWorldSize.x / nodeDiameter);
-			gridSizeY = Mathf.RoundToInt(gridWorldSize.y / nodeDiameter);
-			CreateGrid();
-		}
-
-		private void CreateGrid()
-		{
-			if(gridNodes != null)
-			{
-				DestroyImmediate(gridNodes);
-			}
-			gridNodes = new GameObject() { name = "Grid Nodes"};
-			gridNodes.transform.position = new Vector3(0, 0, 0);
-
-			grid = new Node[gridSizeX, gridSizeY];
-			Vector3 worldBottomLeft = transform.position - Vector3.right * gridWorldSize.x / 2 - Vector3.forward * gridWorldSize.y / 2;
-
-			for (int x = 0; x < gridSizeX; x++)
-			{
-				for (int y = 0; y < gridSizeY; y++)
-				{
-					Vector3 worldPoint = worldBottomLeft + Vector3.right * (x * nodeDiameter + nodeRadius) + Vector3.forward * (y * nodeDiameter + nodeRadius);
-					bool walkable = !(Physics.CheckSphere(worldPoint, nodeRadius, unwalkableMask));
-
-					worldPoint.y += quadOffset;
-
-					NodeObject nodeObject = Instantiate(nodePrefab);
-					nodeObject.transform.position = worldPoint;
-					nodeObject.transform.parent = gridNodes.transform;
-					grid[x, y] = new Node(walkable, worldPoint, x, y, nodeObject);
-				}
-			}
-		}
+		public int MaxSize => GridSize.x * GridSize.y;
 
 		public List<Node> GetNeighbours(Node node)
 		{
@@ -75,9 +31,9 @@ namespace Assets
 					int checkX = node.gridPositionX + x;
 					int checkY = node.gridPositionY + y;
 
-					if (checkX >= 0 && checkX < gridSizeX && checkY >= 0 && checkY < gridSizeY)
+					if (checkX >= 0 && checkX < GridSize.x && checkY >= 0 && checkY < GridSize.y)
 					{
-						neighbours.Add(grid[checkX, checkY]);
+						neighbours.Add(NodeArray[checkX, checkY]);
 					}
 				}
 			}
@@ -99,9 +55,9 @@ namespace Assets
 					int checkX = node.gridPositionX + x;
 					int checkY = node.gridPositionY + y;
 
-					if (checkX >= 0 && checkX < gridSizeX && checkY >= 0 && checkY < gridSizeY)
+					if (checkX >= 0 && checkX < GridSize.x && checkY >= 0 && checkY < GridSize.y)
 					{
-						neighbours.Add(grid[checkX, checkY]);
+						neighbours.Add(NodeArray[checkX, checkY]);
 					}
 				}
 			}
@@ -123,9 +79,9 @@ namespace Assets
 					int checkX = node.gridPositionX + x;
 					int checkY = node.gridPositionY + y;
 
-					if (checkX >= 0 && checkX < gridSizeX && checkY >= 0 && checkY < gridSizeY)
+					if (checkX >= 0 && checkX < GridSize.x && checkY >= 0 && checkY < GridSize.y)
 					{
-						Node item = grid[checkX, checkY];
+						Node item = NodeArray[checkX, checkY];
 						if (avoid.Contains(item)) continue;
 						neighbours.Add(item);
 					}
@@ -154,12 +110,12 @@ namespace Assets
 					if (x == -1 && y == 1)
 						continue;
 
-					int checkX = (center.gridPositionX) + x;
-					int checkY = (center.gridPositionY) + y;
+					int checkX = center.gridPositionX + x;
+					int checkY = center.gridPositionY + y;
 
-					if (checkX >= 0 && checkX < gridSizeX && checkY >= 0 && checkY < gridSizeY)
+					if (checkX >= 0 && checkX < GridSize.x && checkY >= 0 && checkY < GridSize.y)
 					{
-						neighbours.Add(grid[checkX, checkY]);
+						neighbours.Add(NodeArray[checkX, checkY]);
 					}
 				}
 			}
@@ -209,44 +165,14 @@ namespace Assets
 
 		public Node NodeFromWorldPoint(Vector3 worldPosition)
 		{
-			float percentX = (worldPosition.x + gridWorldSize.x / 2) / gridWorldSize.x;
-			float percentY = (worldPosition.z + gridWorldSize.y / 2) / gridWorldSize.y;
+			float percentX = (worldPosition.x + GridSize.x / 2) / GridSize.x;
+			float percentY = (worldPosition.z + GridSize.y / 2) / GridSize.y;
 			percentX = Mathf.Clamp01(percentX);
 			percentY = Mathf.Clamp01(percentY);
 
-			int x = Mathf.RoundToInt((gridSizeX - 1) * percentX);
-			int y = Mathf.RoundToInt((gridSizeY - 1) * percentY);
-			return grid[x, y];
-		}
-
-
-		[SerializeField] private float gizmoHeight = 0.3f;
-		[SerializeField] private float gizmoBoundry = -.1f;
-
-		void OnDrawGizmos()
-		{
-			DrawBoundryGizmos();
-			if (grid != null && displayGridGizmos)
-			{
-				DrawGridGizmos();
-			}
-		}
-
-		private void DrawBoundryGizmos()
-		{
-			Gizmos.DrawWireCube(transform.position, new Vector3(gridWorldSize.x, 1, gridWorldSize.y));
-		}
-
-		private void DrawGridGizmos()
-		{
-			foreach (Node n in grid)
-			{
-				if (n == null) return;
-				Gizmos.color = (n.walkable) ? Color.white : Color.red;
-				Vector3 size = Vector3.one * (nodeDiameter - gizmoBoundry);
-				size.y = gizmoHeight;
-				Gizmos.DrawWireCube(n.worldPosition, size);
-			}
+			int x = Mathf.RoundToInt((GridSize.x - 1) * percentX);
+			int y = Mathf.RoundToInt((GridSize.y - 1) * percentY);
+			return NodeArray[x, y];
 		}
 	}
 }

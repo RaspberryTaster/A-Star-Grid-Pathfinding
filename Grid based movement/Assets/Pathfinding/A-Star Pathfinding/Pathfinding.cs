@@ -11,9 +11,12 @@ public class Pathfinding : MonoBehaviour
 	void Awake()
 	{
 		requestManager = GetComponent<PathRequestManager>();
-		grid = GetComponent<NodeGrid>();
-	}
 
+	}
+	private void Start()
+	{
+		grid = GetComponent<SquareGrid>().NodeGrid;
+	}
 	public void StartFindPath(Vector3 startPos, Vector3 targetPos, int stoppingDistance)
 	{
 		StartCoroutine(FindPath(startPos, targetPos, stoppingDistance));
@@ -24,7 +27,6 @@ public class Pathfinding : MonoBehaviour
 
 		Vector3[] waypoints = new Vector3[0];
 		bool pathSuccess = false;
-
 		Node startNode = grid.NodeFromWorldPoint(startPos);
 		Node targetNode = grid.NodeFromWorldPoint(targetPos);
 

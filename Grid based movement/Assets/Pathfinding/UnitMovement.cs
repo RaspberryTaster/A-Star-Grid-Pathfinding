@@ -4,14 +4,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movement_Grid_Component : MonoBehaviour
+public class UnitMovement : MonoBehaviour
 {
 	public CombatComponent combatComponent;
 	public int MoveDistance;
 	public Pathfinding Pathfinding;
-	public NodeGrid grid;
+	public SquareGrid grid;
 
 	public Color defaultColor;
+
+	private void Awake()
+	{
+		if(grid == null)
+		{
+			grid = FindObjectOfType<SquareGrid>();
+		}	
+	}
+
 	[Button("Get distance nodes")]
 	public void GetDistanceNodes()
 	{
@@ -24,7 +33,7 @@ public class Movement_Grid_Component : MonoBehaviour
 			n.SetColor(defaultColor);
 		}
 
-		MovementNodes = PathfindDistance(grid.NodeFromWorldPoint(transform.position));
+		MovementNodes = PathfindDistance(grid.NodeGrid.NodeFromWorldPoint(transform.position));
 		WithinRangeNodes = PredictedRangeNodes(MovementNodes);
 		foreach (Node n in WithinRangeNodes)
 		{
@@ -47,7 +56,7 @@ public class Movement_Grid_Component : MonoBehaviour
 		while(frontier.Count != 0)
 		{
 			Node current = frontier.Dequeue();
-			List<Node> neighbours = grid.GetNeighbours(current);
+			List<Node> neighbours = grid.NodeGrid.GetNeighbours(current);
 			for(int i = 0; i < neighbours.Count; i ++)
 			{
 				Node next = neighbours[i];
@@ -67,7 +76,7 @@ public class Movement_Grid_Component : MonoBehaviour
 		List<Node> value = new List<Node>();
 		foreach(Node n in targetNodes)
 		{
-			List<Node> rangeNodes = grid.GetWithinRange(n, combatComponent.minAttackRange, combatComponent.maxAttackRange);
+			List<Node> rangeNodes = grid.NodeGrid.GetWithinRange(n, combatComponent.minAttackRange, combatComponent.maxAttackRange);
 			for(int i = 0; i < rangeNodes.Count; i++)
 			{
 				if (value.Contains(rangeNodes[i])) continue;
@@ -84,12 +93,12 @@ public class Movement_Grid_Component : MonoBehaviour
 		foreach(Node n in MovementNodes)
 		{
 			Gizmos.color = Color.yellow;
-			Gizmos.DrawWireCube(n.worldPosition, Vector3.one * (grid.nodeDiameter - .3f));
+			Gizmos.DrawWireCube(n.worldPosition, Vector3.one * (grid.NodeDiameter - .3f));
 		}
 		foreach(Node n in WithinRangeNodes)
 		{
 			Gizmos.color = Color.magenta;
-			Gizmos.DrawWireCube(n.worldPosition, Vector3.one * (grid.nodeDiameter - .4f));
+			Gizmos.DrawWireCube(n.worldPosition, Vector3.one * (grid.NodeDiameter - .4f));
 		}
 	}
 }

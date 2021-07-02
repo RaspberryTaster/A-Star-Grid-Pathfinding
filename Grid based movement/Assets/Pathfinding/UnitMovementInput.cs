@@ -7,11 +7,11 @@ public class UnitMovementInput : MonoBehaviour
 {
 	public SurroundingNodes2 SurroundingNodes;
 	public Node selectedNode;
-	public NodeGrid grid;
+	public SquareGrid squareGrid;
 	public Unit controlledUnit;
 	public CombatComponent controlledUnitCombatComponent;
 	public QueueComponent queueComponent;
-	public Movement_Grid_Component Movement_Grid_Component;
+	public UnitMovement UnitMovement;
 	PlayerInput playerInput;
 
 	void Awake()
@@ -33,35 +33,35 @@ public class UnitMovementInput : MonoBehaviour
 	private void PlayerInput_OnHitRaycast(RaycastHit hit)
 	{
 		//selectedNode = null;
-		Movement_Grid_Component.GetDistanceNodes();
+		UnitMovement.GetDistanceNodes();
 
 		Unit targetUnit = hit.collider.GetComponent<Unit>();
 		Node targetUnitNode = null;
 		if (targetUnit != null)
 		{
-			targetUnitNode = grid.NodeFromWorldPoint(targetUnit.transform.position);
+			targetUnitNode = squareGrid.NodeGrid.NodeFromWorldPoint(targetUnit.transform.position);
 		}
-		Node hitNode = grid.NodeFromWorldPoint(hit.point);
+		Node hitNode = squareGrid.NodeGrid.NodeFromWorldPoint(hit.point);
 		CombatComponent targtCombatComponent = hit.collider.GetComponent<CombatComponent>();
 
-		int stoppingDIstance = 0;
+		int stoppingDistance = 0;
 		IAction action;
 		Action_Types action_Types;
-		if (targetUnit != null && targetUnitNode != null && Movement_Grid_Component.WithinRangeNodes.Contains(targetUnitNode))
+		if (targetUnit != null && targetUnitNode != null && UnitMovement.WithinRangeNodes.Contains(targetUnitNode))
 		{
 			SurroundingNodes.SetUp(controlledUnit.transform, targetUnitNode, controlledUnitCombatComponent.minAttackRange, controlledUnitCombatComponent.maxAttackRange);
 			selectedNode = SurroundingNodes.closestNode;
-			MoveAction moveAction = new MoveAction(controlledUnit, queueComponent, selectedNode, 0, Movement_Grid_Component);
+			MoveAction moveAction = new MoveAction(controlledUnit, queueComponent, selectedNode, 0, UnitMovement);
 			action = new AttackAction(controlledUnitCombatComponent, queueComponent, targtCombatComponent, moveAction);
 			action_Types = Action_Types.ATTACK;
 		}
 		else
 		{
 			selectedNode = hitNode;
-			action = new MoveAction(controlledUnit, queueComponent, selectedNode, stoppingDIstance, Movement_Grid_Component);
+			action = new MoveAction(controlledUnit, queueComponent, selectedNode, stoppingDistance, UnitMovement);
 			action_Types = Action_Types.WALK;
 		}
-		if (selectedNode == null || !selectedNode.walkable || action == null || !Movement_Grid_Component.MovementNodes.Contains(selectedNode)) return;
+		if (selectedNode == null || !selectedNode.walkable || action == null || !UnitMovement.MovementNodes.Contains(selectedNode)) return;
 		queueComponent.Dequeue_All_Before_Adding_Action(action, action_Types);
 	}
 
