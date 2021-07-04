@@ -13,7 +13,6 @@ public class UnitMovement : MonoBehaviour
 	public CombatComponent combatComponent;
 	public int MoveDistance;
 	public Pathfinding Pathfinding;
-	public Color defaultColor;
 	public SquareGrid grid;
 
 	private void Awake()

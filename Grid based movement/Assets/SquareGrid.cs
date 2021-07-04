@@ -17,7 +17,7 @@ public class SquareGrid : MonoBehaviour
 	public PlaneGrid planeGrid;
 	[SerializeField] private GameObject GridNodes;
 	[SerializeField] private NodeObject NodePrefab;
-
+	public NodeSpawner NodeSpawner;
 
 	int gridSizeX, gridSizeY;
 
@@ -58,12 +58,7 @@ public class SquareGrid : MonoBehaviour
 			for (int y = 0; y < NodeGrid.NodeArray.GetLength(1); y++)
 			{
 				Vector3 worldPoint = worldBottomLeft + Vector3.right * (x * NodeDiameter + NodeRadius) + Vector3.forward * (y * NodeDiameter + NodeRadius);
-				bool walkable = !(Physics.CheckSphere(worldPoint, NodeRadius, unwalkableMask));
-				NodeObject nodeObject = Instantiate(NodePrefab, worldPoint, Quaternion.identity);
-				worldPoint = planeGrid.InstantiateNodeObject(nodeObject, worldPoint);
-
-				nodeObject.transform.parent = GridNodes.transform;
-				NodeGrid.NodeArray[x, y] = new Node(walkable, worldPoint, x, y, nodeObject);
+				NodeSpawner.Spawn(x, y, worldPoint, NodePrefab, GridNodes, NodeGrid);
 			}
 		}
 	}

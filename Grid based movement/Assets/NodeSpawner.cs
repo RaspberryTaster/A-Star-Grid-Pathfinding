@@ -20,10 +20,10 @@ public class NodeSpawner : MonoBehaviour
     RaycastHit hit;
     public RaycastHit[] hits = new RaycastHit[0];
 
-    public void Spawn(int x, int y, Vector3 worldPoint, NodeObject nodeObject, GameObject GridNodes, NodeGrid NodeGrid)
+    public void Spawn(int x, int y, Vector3 worldPoint, NodeObject nodePrefab, GameObject GridNodes, NodeGrid NodeGrid)
 	{
 
-        this.nodeObject = Instantiate(nodeObject, worldPoint, Quaternion.identity);
+        this.nodeObject = Instantiate(nodePrefab, worldPoint, Quaternion.identity);
         hits = Physics.BoxCastAll(worldPoint, this.nodeObject.transform.lossyScale / 2, direction, this.nodeObject.transform.rotation, maxDistance, layerMask);
         bool walkable = false;
         if (hits.Length > 0)
