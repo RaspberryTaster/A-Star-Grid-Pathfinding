@@ -50,9 +50,23 @@ public class NodeSpawner : MonoBehaviour
         }
 
         worldPoint = this.nodeObject.transform.position;
+<<<<<<< Updated upstream
 
         this.nodeObject.transform.parent = GridNodes.transform;
         NodeGrid.NodeArray[x, y] = new Node(walkable, worldPoint, x, y, this.nodeObject);
+=======
+        TIleMode tileMode;
+        if(walkable)
+		{
+            tileMode = TIleMode.DEFAULT;
+        }
+        else
+		{
+            tileMode = TIleMode.UNREACHABLE;
+		}
+        this.nodeObject.transform.parent = GridNodes.transform;
+        NodeGrid.NodeArray[x, y] = new Node(walkable, worldPoint, x, y, (int)tileMode,this.nodeObject);
+>>>>>>> Stashed changes
 
         this.nodeObject = null;
     }
