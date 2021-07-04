@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
+[RequireComponent(typeof(NodeSpawner))]
 public class SquareGrid : MonoBehaviour
 {
 	public Vector2 gridWorldSize;
@@ -27,11 +28,14 @@ public class SquareGrid : MonoBehaviour
 
 	void Awake()
 	{
+		NodeSpawner = GetComponent<NodeSpawner>();
+
 		gridSizeX = Mathf.RoundToInt(gridWorldSize.x / NodeDiameter);
 		gridSizeY = Mathf.RoundToInt(gridWorldSize.y / NodeDiameter);
 
 		CreateGrid();
 	}
+	
 
 	[Button]
 	void CreateGrid()
