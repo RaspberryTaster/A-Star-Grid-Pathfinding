@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Base:
-        m_Texture: {fileID: 2800000, guid: cfe3655beeeb8624b9383308dcb0181e, type: 3}
+        m_Texture: {fileID: 2800000, guid: fa300750f3445ef4897e28b7c1824dad, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -90,6 +90,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - Contrast: 2
     - Tile_Index: 0
     - _AlphaClip: 0
     - _Blend: 1
@@ -121,6 +122,7 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - Action: {r: 0.8207547, g: 0.1811854, b: 0.2592408, a: 1}
+    - Ally_Movement: {r: 0.1742969, g: 0.4655182, b: 0.9056604, a: 1}
     - Ally_Walk_Color: {r: 0.2364125, g: 0.2193663, b: 0.49056602, a: 0}
     - Attack_Range_Color: {r: 7.9066987, g: 0, b: 0, a: 1}
     - Default_Color: {r: 1, g: 1, b: 1, a: 0}
