@@ -18,9 +18,4 @@ public class NodeObject : MonoBehaviour
 		Material mat = new Material(rnd.sharedMaterial);
 		rnd.material = mat;
 	}
-
-	private void OnDisable()
-	{
-
-	}
 }

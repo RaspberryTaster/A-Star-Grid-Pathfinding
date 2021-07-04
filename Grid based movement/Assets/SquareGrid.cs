@@ -8,13 +8,11 @@ using UnityEngine;
 [RequireComponent(typeof(NodeSpawner))]
 public class SquareGrid : MonoBehaviour
 {
-	public LayerMask unwalkableMask;
 	public Vector2 gridWorldSize;
 	public float NodeRadius = 0.5f;
 	public bool DrawGizmos;
 	public float NodeDiameter => NodeRadius * 2;
 	public NodeGrid NodeGrid;
-	public PlaneGrid planeGrid;
 	[SerializeField] private GameObject GridNodes;
 	[SerializeField] private NodeObject NodePrefab;
 	public NodeSpawner NodeSpawner;

@@ -6,7 +6,7 @@ using UnityEngine;
 
 public enum TIleMode
 {
-	DEFAULT = 0, UNREACHABLE = 5, ATTACKRANGE = 4, MOVEMENT = 2
+	DEFAULT = 0, UNREACHABLE = 1, ATTACKRANGE = 2, MOVEMENT = 3
 }
 public class UnitMovement : MonoBehaviour
 { 
@@ -30,6 +30,15 @@ public class UnitMovement : MonoBehaviour
 	[Button("Get distance nodes")]
 	public void GetDistanceNodes()
 	{
+		foreach (Node n in WithinRangeNodes)
+		{
+			n.SetColor(n.DefaultNodeIndex);
+		}
+		foreach (Node n in MovementNodes)
+		{
+			n.SetColor(n.DefaultNodeIndex);
+		}
+
 		MovementNodes = PathfindDistance(grid.NodeGrid.NodeFromWorldPoint(transform.position));
 		WithinRangeNodes = PredictedRangeNodes(MovementNodes);
 		foreach (Node n in WithinRangeNodes)
