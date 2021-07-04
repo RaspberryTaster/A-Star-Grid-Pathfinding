@@ -6,7 +6,7 @@ namespace Assets
 {
 	public class NodeGrid
 	{
-		public Node[,] NodeArray = new Node[0, 0];
+		public Node[,] NodeArray;
 		public Vector2Int GridSize = new Vector2Int();
 
 		public NodeGrid(Vector2Int gridSize)
