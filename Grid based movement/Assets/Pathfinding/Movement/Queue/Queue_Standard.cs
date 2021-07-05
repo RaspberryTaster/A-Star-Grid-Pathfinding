@@ -8,9 +8,9 @@ namespace Assets.Movement
 	{
 		private List<IAction> actions;
 		private List<Action_Types> actionNames;
-		private QueueComponent queue_Component;
+		private StateMachine queue_Component;
 
-		public Queue_Standard(List<IAction> actions, List<Action_Types> actionNames, QueueComponent queue_Component)
+		public Queue_Standard(List<IAction> actions, List<Action_Types> actionNames, StateMachine queue_Component)
 		{
 			this.actions = actions;
 			this.actionNames = actionNames;

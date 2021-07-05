@@ -6,11 +6,11 @@ public class TalkAction : IAction
 {
 	private Unit unit;
 	private Unit targetUnit;
-	private QueueComponent queueComponent;
+	private StateMachine queueComponent;
 	public IAction[] preActions = new IAction[0];
 	bool hasTalked = false;
 
-	public TalkAction(Unit unit, Unit targetUnit, QueueComponent queueComponent, params IAction[] preActions)
+	public TalkAction(Unit unit, Unit targetUnit, StateMachine queueComponent, params IAction[] preActions)
 	{
 		this.unit = unit;
 		this.targetUnit = targetUnit;

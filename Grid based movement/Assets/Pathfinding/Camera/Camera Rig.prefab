@@ -44,20 +44,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 815f15d7623774e43ae6317ba5e5dd32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  followTransform: {fileID: 0}
   cameraTransform: {fileID: 3943073860366720789}
+  follow: 0
+  hasLockedOn: 0
   normalsSpeed: 0.5
   fastSpeed: 3
   movementSpeed: 1
   movementTime: 5
+  toFollowTime: 5
   rotation_Amount: 1
-  zoomAmount: {x: 0, y: -10, z: 10}
+  zoomAmount: {x: 0, y: -5, z: 5}
   newPosition: {x: 0, y: 0, z: 0}
   newRotation: {x: 0, y: 0, z: 0, w: 0}
   newZoom: {x: 0, y: 0, z: 0}
+  maximumZoom: {x: 0, y: 200, z: 200}
+  minimumZoom: {x: 0, y: 10, z: 10}
   dragStartPosition: {x: 0, y: 0, z: 0}
   dragCurrentPosition: {x: 0, y: 0, z: 0}
   rotateStartPosition: {x: 0, y: 0, z: 0}
   rotateCurrentPosition: {x: 0, y: 0, z: 0}
+  edgesize: 20
+  distanceTillLock: 0.2
 --- !u!1 &3943073860366720790
 GameObject:
   m_ObjectHideFlags: 0
@@ -69,6 +77,7 @@ GameObject:
   - component: {fileID: 3943073860366720789}
   - component: {fileID: 3943073860366720787}
   - component: {fileID: 3943073860366720788}
+  - component: {fileID: 324249431}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -141,3 +150,35 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3943073860366720790}
   m_Enabled: 1
+--- !u!114 &324249431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3943073860366720790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2

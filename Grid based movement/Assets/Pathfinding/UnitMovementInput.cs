@@ -5,19 +5,18 @@ using UnityEngine;
 
 public class UnitMovementInput : MonoBehaviour
 {
-	public SurroundingNodes2 SurroundingNodes;
+	public DistanceCheck SurroundingNodes;
 	public Node selectedNode;
 	public SquareGrid squareGrid;
-	public Unit controlledUnit;
+	public Unit unit;
 	public CombatComponent controlledUnitCombatComponent;
-	public QueueComponent queueComponent;
-	public UnitMovement UnitMovement;
+	public StateMachine stateMachine;
 	PlayerInput playerInput;
 
 	void Awake()
 	{
 		playerInput = GetComponent<PlayerInput>();
-		controlledUnitCombatComponent = controlledUnit.GetComponent<CombatComponent>();
+		controlledUnitCombatComponent = unit.GetComponent<CombatComponent>();
 	}
 
 	private void OnEnable()
@@ -33,7 +32,7 @@ public class UnitMovementInput : MonoBehaviour
 	private void PlayerInput_OnHitRaycast(RaycastHit hit)
 	{
 		//selectedNode = null;
-		UnitMovement.GetDistanceNodes();
+		unit.SetDistanceNodes();
 
 		Unit targetUnit = hit.collider.GetComponent<Unit>();
 		Node targetUnitNode = null;
@@ -47,22 +46,22 @@ public class UnitMovementInput : MonoBehaviour
 		int stoppingDistance = 0;
 		IAction action;
 		Action_Types action_Types;
-		if (targetUnit != null && targetUnitNode != null && UnitMovement.WithinRangeNodes.Contains(targetUnitNode))
+		if (targetUnit != null && targetUnitNode != null && unit.WithinRangeNodes.Contains(targetUnitNode))
 		{
-			SurroundingNodes.SetUp(controlledUnit.transform, targetUnitNode, controlledUnitCombatComponent.minAttackRange, controlledUnitCombatComponent.maxAttackRange);
+			SurroundingNodes.SetUp(unit.transform, targetUnitNode, controlledUnitCombatComponent.minAttackRange, controlledUnitCombatComponent.maxAttackRange);
 			selectedNode = SurroundingNodes.closestNode;
-			MoveAction moveAction = new MoveAction(controlledUnit, queueComponent, selectedNode, 0, UnitMovement);
-			action = new AttackAction(controlledUnitCombatComponent, queueComponent, targtCombatComponent, moveAction);
+			MoveAction moveAction = new MoveAction(unit, stateMachine, selectedNode, 0);
+			action = new AttackAction(controlledUnitCombatComponent, stateMachine, targtCombatComponent, moveAction);
 			action_Types = Action_Types.ATTACK;
 		}
 		else
 		{
 			selectedNode = hitNode;
-			action = new MoveAction(controlledUnit, queueComponent, selectedNode, stoppingDistance, UnitMovement);
+			action = new MoveAction(unit, stateMachine, selectedNode, stoppingDistance);
 			action_Types = Action_Types.WALK;
 		}
-		if (selectedNode == null || !selectedNode.walkable || action == null || !UnitMovement.MovementNodes.Contains(selectedNode)) return;
-		queueComponent.Dequeue_All_Before_Adding_Action(action, action_Types);
+		if (selectedNode == null || !selectedNode.walkable || action == null || !unit.MovementNodes.Contains(selectedNode)) return;
+		stateMachine.Dequeue_All_Before_Adding_Action(action, action_Types);
 	}
 
 	private void OnDrawGizmos()

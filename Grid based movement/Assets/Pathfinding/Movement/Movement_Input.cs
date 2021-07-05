@@ -14,7 +14,7 @@ namespace Raspberry.Movement
     {
         [SerializeField] private Camera cam;
         public Vector3 cur_Mouse_Position;
-        public QueueComponent queue_Component;
+        public StateMachine queue_Component;
         public Movement_Component movement_Component;
         public List<ITraversal_Method> traversal_Methods = new List<ITraversal_Method>();
         public int traversal_Index;

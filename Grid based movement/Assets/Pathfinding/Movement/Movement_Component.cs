@@ -6,7 +6,7 @@ using UnityEngine.AI;
 
 namespace Raspberry.Movement
 {
-	[RequireComponent(typeof(QueueComponent))]
+	[RequireComponent(typeof(StateMachine))]
 	[RequireComponent(typeof(NavMeshAgent))]
 	public class Movement_Component : MonoBehaviour
 	{
@@ -16,11 +16,11 @@ namespace Raspberry.Movement
 		public NavMeshAgent NavMeshAgent;
 		public Distance_Limiter Distance_Limiter;
 		private bool hasStopped;
-		public QueueComponent queue_Component;
+		public StateMachine queue_Component;
 
 		private void Awake()
 		{
-			queue_Component = GetComponent<QueueComponent>();
+			queue_Component = GetComponent<StateMachine>();
 			Distance_Limiter = GetComponent<Distance_Limiter>();
 		}
 		void Start()

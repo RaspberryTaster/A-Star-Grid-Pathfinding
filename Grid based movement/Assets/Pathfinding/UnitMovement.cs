@@ -4,30 +4,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum TIleMode
-{
-	DEFAULT = 0, UNREACHABLE = 1, ATTACKRANGE = 2, MOVEMENT = 3
-}
+[RequireComponent(typeof(CombatComponent))]
 public class UnitMovement : MonoBehaviour
 { 
-	public CombatComponent combatComponent;
 	public int MoveDistance;
-	public Pathfinding Pathfinding;
-	public SquareGrid grid;
+	private Pathfinding Pathfinding;
+	private SquareGrid grid;
+	private CombatComponent combatComponent;
 
 	private void Awake()
 	{
 		if(grid == null)
 		{
 			grid = FindObjectOfType<SquareGrid>();
-		}	
+		}
+		if(Pathfinding == null)
+		{
+			Pathfinding = FindObjectOfType<Pathfinding>();
+		}
+		combatComponent = GetComponent<CombatComponent>();
 	}
 
 	private void Start()
 	{
 		GetDistanceNodes();
 	}
-	[Button("Get distance nodes")]
+
+	[Button]
 	public void GetDistanceNodes()
 	{
 		foreach (Node n in WithinRangeNodes)
@@ -50,6 +53,7 @@ public class UnitMovement : MonoBehaviour
 			n.SetColor((int)TIleMode.MOVEMENT);
 		}
 	}
+
 	public List<Node> MovementNodes = new List<Node>();
 	public List<Node> WithinRangeNodes = new List<Node>();
 
@@ -91,16 +95,22 @@ public class UnitMovement : MonoBehaviour
 
 		 return value;
 	}
+
 	public bool DrawGizmos;
 	private void OnDrawGizmos()
 	{
 		if (DrawGizmos == false) return;
-		foreach(Node n in MovementNodes)
+		MovementGizmos();
+	}
+
+	private void MovementGizmos()
+	{
+		foreach (Node n in MovementNodes)
 		{
 			Gizmos.color = Color.yellow;
 			Gizmos.DrawWireCube(n.worldPosition, Vector3.one * (grid.NodeDiameter - .3f));
 		}
-		foreach(Node n in WithinRangeNodes)
+		foreach (Node n in WithinRangeNodes)
 		{
 			Gizmos.color = Color.magenta;
 			Gizmos.DrawWireCube(n.worldPosition, Vector3.one * (grid.NodeDiameter - .4f));

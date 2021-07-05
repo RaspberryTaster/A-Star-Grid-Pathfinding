@@ -1,9 +1,15 @@
 using UnityEngine;
 using System.Collections;
 
+public enum TIleMode
+{
+	DEFAULT = 0, UNREACHABLE = 1, ATTACKRANGE = 2, MOVEMENT = 3
+}
+
 [System.Serializable]
 public class Node : IHeapItem<Node>
 {
+	public string Name;
 	public int DefaultNodeIndex;
 
 	public bool selected;
@@ -28,6 +34,7 @@ public class Node : IHeapItem<Node>
 		this.DefaultNodeIndex = DefaultNodeIndex;
 		this.nodeObject.transform.position = worldPosition;
 		SetColor(DefaultNodeIndex);
+		Name = Designation();
 	}
 
 	public int fCost
@@ -62,7 +69,7 @@ public class Node : IHeapItem<Node>
 
 	public string Designation()
 	{
-		return $"World position: [{worldPosition}], Grid position: [{gridPositionX}, {gridPositionY}]";
+		return $"Grid position: ({gridPositionX}, {gridPositionY}), World position: {worldPosition}";
 	}
 
 	public void SetColor(int index)

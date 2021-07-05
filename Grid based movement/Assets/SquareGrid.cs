@@ -10,14 +10,17 @@ public class SquareGrid : MonoBehaviour
 {
 	public Vector2 gridWorldSize;
 	public float NodeRadius = 0.5f;
-	public bool DrawGizmos;
+
 	public float NodeDiameter => NodeRadius * 2;
 	public NodeGrid NodeGrid;
+
 	[SerializeField] private GameObject GridNodes;
 	[SerializeField] private NodeObject NodePrefab;
-	public NodeSpawner NodeSpawner;
 
-	int gridSizeX, gridSizeY;
+	public bool DrawGizmos;
+
+	private NodeSpawner NodeSpawner;
+	private int gridSizeX, gridSizeY;
 
 	private void OnValidate()
 	{
